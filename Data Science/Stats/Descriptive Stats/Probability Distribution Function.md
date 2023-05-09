@@ -14,7 +14,7 @@ Tags: #stats
     - The area under the PDF curve represents the total probability of all possible outcomes, which is equal to 1.
     - probability distribution function (PDF) is a general term that can refer to either a probability mass function (PMF) or a probability density function (PDF), depending on whether the random variable is discrete or continuous.
 ------------- 
-
+### [[Kurtosis]]
 ### [[Central  Limit Theorem]]:
 ### [[PDF]]:
 ### [[PMF]]:

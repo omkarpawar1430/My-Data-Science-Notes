@@ -16,7 +16,6 @@ Tags:
 ### My SQL:
 [SQL Introduction](https://www.w3schools.com/sql/sql_intro.asp)
 [Learn SQL | Learn with Sololearn](https://www.sololearn.com/learning/1060)
-[Basics](Basics%20cda4e8b80aeb496ebe0268a77deac666.md)
 [Python MySQL - Create Table](https://www.tutorialspoint.com/python_data_access/python_mysql_create_table.htm)
 [Python MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 [Python Database Connection Pooling with MySQL](https://pynative.com/python-database-connection-pooling-with-mysql/)

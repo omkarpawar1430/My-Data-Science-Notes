@@ -16,19 +16,6 @@ In essence, the CLT provides a framework for understanding the behavior of sampl
 
 ![[Pasted image 20230505200942.png]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------
 #### links:
 [[]]

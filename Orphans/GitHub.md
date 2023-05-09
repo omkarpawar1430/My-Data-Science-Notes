@@ -1,7 +1,12 @@
 
-Tags: #python
+Tags: #python #project 
 
 ------------------------------------------
+U - untracked 
+M - modified 
+
+---
+
 ### gitignore:
 keep files that we don't want to push to github secured from  being published.
 
@@ -35,7 +40,7 @@ keep files that we don't want to push to github secured from  being published.
     
 13.  `git diff`: Shows the differences between the working directory and the staging area or the last commit.
     
-14.  `git reset`: Unstages changes that have been added to the staging area.
+14.  `git reset`: Upstages changes that have been added to the staging area.
     
 15.  `git revert`: Creates a new commit that undoes the changes made in a previous commit.
     
@@ -51,9 +56,13 @@ keep files that we don't want to push to github secured from  being published.
 	
 21.  `git cherry-pick`: Applies the changes of a specific commit from one branch to another, allowing you to selectively merge changes. 
 
+```terminal
+git push origin master
+```
 
-
-
+```markdown
+git remote add origin https://github.com/username/repo.git
+```
 ---------------------
 #### links:
 [[]]

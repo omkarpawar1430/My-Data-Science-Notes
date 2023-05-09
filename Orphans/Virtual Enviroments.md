@@ -1,5 +1,5 @@
 
-Tags: #python 
+Tags: #python #project 
 
 ------------------------------------------
 ### Why we neen Virtual Enviroments?:

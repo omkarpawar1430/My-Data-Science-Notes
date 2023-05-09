@@ -6,7 +6,7 @@ Tags: #stats
 - [Poison Distribution](https://en.wikipedia.org/wiki/Poisson_distribution)
     - Key Idea
         1. Definition of a Distribution:
-        The Poisson distribution is a discrete probability distribution that models the number of occurrences of rare events in a fixed interval of time or space. It is characterized by a single parameter, λ, which represents the average rate of occurrence of the events.
+        The Poisson distribution is a discrete probability distribution that models the number of occurrences of rare events in a fixed interval of time or space. It is characterised by a single parameter, λ, which represents the average rate of occurrence of the events.
         2. Measures of Central Tendency:
         The mean or expected value of the Poisson distribution is equal to λ, which represents the average number of events occurring in a fixed interval.
         3. Measures of Spread:
