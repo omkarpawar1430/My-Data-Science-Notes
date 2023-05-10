@@ -8,7 +8,7 @@ Tags: #stats
 
 ### [[Chi-Square Test]]:
 
-### [[Annova Test]]:
+### [[Anova Test]]:
 
 
 ---------------------

@@ -1,4 +1,4 @@
-#database 
+#database #mysql 
 
 -------------------------
 ### [Resources](obsidian://open?vault=Data%20Science%20&file=Resources):
@@ -23,3 +23,10 @@
 ![[Pasted image 20230506082355.png]]
 
 In general terms, a query in SQL is **a request to databases to fetch (or retrieve) the information.**
+
+
+
+---
+### Links :
+[[RDBMS]] 
+[[MySQL Queries]]

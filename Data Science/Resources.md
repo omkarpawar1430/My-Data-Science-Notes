@@ -20,6 +20,7 @@ Tags:
 [Python MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 [Python Database Connection Pooling with MySQL](https://pynative.com/python-database-connection-pooling-with-mysql/)
 ### Stats:
+[stats by jim](https://statisticsbyjim.com/anova/)
 [Seeing Theory](https://seeing-theory.brown.edu/index.html)
 [https://github.com/the-coder007/Stats-ML-Hand-Written-Notes-](https://github.com/the-coder007/Stats-ML-Hand-Written-Notes-)
 [Standard Deviation and Variance](https://www.mathsisfun.com/data/standard-deviation.html)
