@@ -9,7 +9,6 @@ Tags: #python
 [[Libraries]]
 [[Error Handling]]
 [[Flask]]
-[[GitHub]]
 [[Virtual Enviroments]]
 [[Data Structers]]
 

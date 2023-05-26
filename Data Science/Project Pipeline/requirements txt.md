@@ -26,6 +26,8 @@ To install the dependencies listed in the requirements.txt file, you can use the
 
 This command tells pip to install all the required packages listed in the requirements.txt file. By using the requirements.txt file, you can ensure that all the necessary dependencies are installed on your development machine or on your production server.
 
+> we write `-e .` in requirement.txt so we can trigger [[setup.py]] file while installing packages
+
 ---------------------
 #### links:
 [[]]

@@ -16,5 +16,5 @@ Once you have organized your code into a package structure, you can then distrib
 
 ---------------------
 #### links:
-[[setup py]]
+[[setup.py]]
 [[requirements txt]]

@@ -45,16 +45,10 @@ Tags: #ML
 
 It's important to note that this pipeline is a general guide and that specific steps may vary depending on the problem being solved, the data being used, and the goals of the project. Additionally, this pipeline may be iterative, with multiple rounds of EDA and model building as the problem is refined and new data becomes available.
 
-
-
-
-
-
-
-
-
-
-
+### Types of Machine Learning: 
+[[Supervised Learning]]
+[[Unsupervised Learning]]
+[[Reinforcement Learning]]
 
 
 

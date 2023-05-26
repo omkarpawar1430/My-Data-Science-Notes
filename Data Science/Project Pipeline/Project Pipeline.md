@@ -7,8 +7,16 @@ Tags: #project
 [[Package]]
 [[Docker]]
 [[requirements txt]]
-[[setup py]]
+[[Project Life cycle]]
 [[GitHub]]
+
+
+### Files: 
+[[__init__.py]]
+[[setup.py]]
+[[utils.py]]
+[[logger.py]]
+[[exception.py]]
 
 ---------------------
 #### links:
