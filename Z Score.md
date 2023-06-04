@@ -6,7 +6,10 @@ Date Created:  2023-06-03, @ 14:34
 >[!info] Keywords
 >*
 
-In statistics, the z-score (also known as the standard score) is a measure that quantifies how many standard deviations an observation or data point is away from the mean of a distribution. It is used to standardize and compare values from different normal distributions.
+In statistics, the z-score (also known as the standard score) is a measure that quantifies how many standard deviations an observation or data point is away from the mean of a distribution. It is used to standardize and compare values from different normal distributions
+
+
+
 
 The formula for calculating the z-score is:
 
