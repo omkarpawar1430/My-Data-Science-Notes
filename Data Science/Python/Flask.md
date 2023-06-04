@@ -21,13 +21,7 @@ Tags: #python
     
     In simpler terms, WSGI allows Python web applications like Flask to communicate with web servers like Apache or Nginx. WSGI acts as a bridge between the web server and the web application, handling requests from the web server and passing them on to the application, and then returning the response back to the web server.
     
-- what is the environment?
-    
-    In coding, an environment refers to a specific set of dependencies and configurations required for an application or program to run. Creating an environment allows developers to manage and isolate different versions of libraries, frameworks, and tools needed to develop or run a particular project.
-    
-    1. Reproducibility: When working on a project, it's important to ensure that the code can be executed consistently, regardless of the system it's run on. Creating an environment ensures that all the required dependencies are available and configured correctly, making it easier to reproduce the project's execution.
-    2. Dependency management: Many projects rely on specific versions of libraries or frameworks. Creating an environment ensures that the correct versions are installed, avoiding conflicts or compatibility issues.
-    3. Isolation: Different projects may require different dependencies or configurations. By creating separate environments, developers can isolate each project's dependencies, reducing the risk of conflicts or unintended side effects.
+
 - what is the static and templates folder?
     
     The **`static`** folder is used to store static files such as images, CSS files, and JavaScript files that are used by your Flask application. When a client requests a web page from your Flask application, any static files that are required by that page (e.g., CSS or JavaScript files) are served from the **`static`** folder. This helps to improve the performance of your application, as the static files can be cached by the client's web browser.

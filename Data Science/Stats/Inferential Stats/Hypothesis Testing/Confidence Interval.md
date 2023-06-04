@@ -11,18 +11,6 @@ For example, if we want to estimate the mean height of a population based on a s
 Confidence intervals are useful because they provide information about the precision and reliability of our estimates of population parameters based on sample data. They can be used to make inferences about population parameters and to test hypotheses about the values of those parameters.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------
 #### links:
 [[]]

@@ -105,9 +105,16 @@ Tags:
 12.  Polymorphism - The ability of objects of different classes to be treated as if they have the same interface.
     
 13.  Encapsulation - The practice of hiding the implementation details of an object from the user.
+### Nuance :
+    - Meaning: In the context of Data Science, nuance refers to the subtle and intricate details or variations within data or analysis that may impact the interpretation or understanding of results. It involves recognizing and accounting for the finer aspects or complexities that can affect the analysis or conclusions drawn from data.
+    - Synonyms: Fine distinction, subtle variation, intricate detail, data complexity, contextual sensitivity.
+    - Use case: In Data Science, understanding the nuances of data is crucial for accurate analysis and decision-making. It involves considering factors such as data quality, outliers, biases, sampling methods, and context-specific variations. Acknowledging and addressing these nuances helps in obtaining meaningful insights and making informed decisions based on the data.
 
-*  nuance - 
-* 
+
+### Segregation:
+    - Meaning: In the context of Data Science, segregation refers to the separation or isolation of data based on specific attributes or characteristics. It involves partitioning or dividing data into distinct subsets or groups based on predefined criteria or variables of interest.
+    - Synonyms: Data partitioning, data separation, subset isolation, variable-based grouping.
+    - Use case: Segregation in Data Science is commonly used for tasks such as data preprocessing, data splitting, or feature engineering. It allows for focused analysis or modeling on specific subsets of data, enabling more targeted insights or predictions. Segregation techniques can be employed for tasks like train-test splitting, stratified sampling, cluster analysis, or variable-based grouping for analysis or modeling purposes.
 ---------------------
 #### links:
 [[]]

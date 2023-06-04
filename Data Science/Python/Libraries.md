@@ -10,7 +10,7 @@ Tags: #python
 [[PyPDF2]]
 [[RegEx]]
 [[Shutil]]
-
+[[SK Learn]]
 ### Some Modules:
 [[OS module]]
 [[Sys Module]]

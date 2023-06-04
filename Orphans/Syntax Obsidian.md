@@ -37,8 +37,51 @@ _**Bold and Italic**_
 - [ ] HIj 
 
 ==Omkar==
+------------------------- 
 
+### Topic: 
+Tags: 
+Date Created:  2023-05-30, @ 11:20
+
+---
+
+<aside>
+🧠 Recall
+</aside>
+- 
+- 
+
+<aside>
+📄 Notes
+
+</aside>
+- 
+- 
+- 
+- 
+
+---
+
+<aside>
+📌 SUMMARY:
+
+</aside>
+
+
+---
+
+#### Links:
+	[[]]
 ==HI==
+adding link 
+[link](obsidian://open?vault=My%20Data%20Science%20Notes&file=Orphans%2FVocabulary)
+
+
+
+embedding: 
+
+![[temp tip]]
+
 
 >[!INFO]
 >My first call out
@@ -52,19 +95,16 @@ _**Bold and Italic**_
 >[!tip]
 >Hi how are u ?
 
-
-
 >[!success]
 >
 >Hi
 
->[!warning]
+>[!warning] 
 >HI
 
->[!danger]- Do NOT OPEN
->	Stay away
+>[!danger]
+>Stay away
  
-
 >[!bug]
 >This a bug
 
@@ -73,6 +113,13 @@ _**Bold and Italic**_
 
 >[!cite]
 >from ninth cloud
+
+Creating a table
+
+First Header | Second Header 
+--- | --- 
+Content from cell 1 | Content from cell 2 
+Content in the first column | Content in the second column
 
 
 ---------------------

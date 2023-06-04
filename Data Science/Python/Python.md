@@ -10,7 +10,7 @@ Tags: #python
 [[Error Handling]]
 [[Flask]]
 [[Virtual Enviroments]]
-[[Data Structers]]
+[[Python Data Structers]]
 
 
 ---------------------

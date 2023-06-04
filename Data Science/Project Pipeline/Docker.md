@@ -3,6 +3,9 @@ Tags: #project #python
 
 ------------------------------------------
 
+
+-------------
+
 Docker is an open-source platform that allows developers to build, deploy, and run applications in containers. **Container**s are lightweight, portable, and self-contained environments that include everything an application needs to run, such as code, libraries, and system tools. Dockerization is the process of creating a Docker container for an application or service.
 
 There are several reasons why developers use Docker and Dockerization:

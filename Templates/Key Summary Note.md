@@ -1,35 +1,28 @@
 ------------------------- 
-
-### Topic: 
 Tags: 
 Date Created:  {{date}}, @ {{time}}
 
 ---
-
-<aside>
-🧠 Recall
-</aside>
-- 
-- 
-
-<aside>
-📄 Notes
-
-</aside>
-- 
-- 
-- 
-- 
-
----
-
-<aside>
-📌 SUMMARY:
-
-</aside>
+>[!info] Keywords
+>*
 
 
----
 
-#### Links:
-	[[]]
+
+
+
+
+
+
+
+
+
+
+>[!summary] 
+>1. ...
+>2. ...
+
+----
+>[!cite]
+> [[]]
+> []()
