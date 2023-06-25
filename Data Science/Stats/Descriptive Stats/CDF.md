@@ -22,17 +22,6 @@ Overall, distributions are a key tool in statistics for understanding and interp
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ---------------------
 #### links:
 [[]]

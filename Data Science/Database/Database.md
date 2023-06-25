@@ -2,4 +2,5 @@
 
 ---------------------------------
 [[MongoDB]]
-[[MySQL]]
+[[Data Science/Database/MySQL/MySQL|MySQL]]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

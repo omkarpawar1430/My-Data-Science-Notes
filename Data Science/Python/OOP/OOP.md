@@ -9,7 +9,7 @@ Tags: #python
     
     [Polymorphism in Python - GeeksforGeeks](https://www.geeksforgeeks.org/polymorphism-in-python/)
     
-    Polymorphism in Python refers to the ability of objects to take on many forms or have multiple behaviors. In simpler terms, it means that different objects can have the same method name, but behave differently based on the context in which they are called.
+   Polymorphism in Python refers to the ability of objects to take on many forms or have multiple behaviours. In simpler terms, it means that different objects can have the same method name, but behave differently based on the context in which they are called.
     
     For example, let's say we have a class called `Animal` with a method called `speak()`. We could then create two subclasses of `Animal` called `Dog` and `Cat`. Both `Dog` and `Cat` would inherit the `speak()` method from `Animal`, but they would implement it differently. The `Dog` class might define `speak()` as "woof", while the `Cat` class might define it as "meow".
     
@@ -255,11 +255,12 @@ Tags: #python
     In this example, we're calling the "my_static_method()" method on the "MyClass" class itself, rather than on an instance of the class. This is possible because static methods do not operate on instance data.
     
     In summary, static methods in Python are methods that are associated with a class but do not operate on any specific instance of the class. They are often used for utility functions that are related to a class, but do not need to access or modify any instance data.
-    
+
+
 
 
 
 ---------------------
 #### links:
-[[]]
+[[Decorators in OOP]]
 [[]]

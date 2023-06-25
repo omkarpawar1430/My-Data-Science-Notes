@@ -25,4 +25,7 @@ There are several types of supervised learning algorithms, including regression 
 [[Regression algorithm]]
 [[Classification Algorithm]]
 [[Decision Tree]]
+[[Support Vector Machine]]
+[[Random Forest]]
+
 

@@ -19,7 +19,8 @@ Here is a simple code example of how to use the two pointer approach to find the
 
 Code snippet
 
-```
+```python
+
 def find_minimum(array):
     # Initialize the two pointers
     start_pointer = 0

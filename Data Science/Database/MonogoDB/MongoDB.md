@@ -7,6 +7,7 @@
 
 ```python
 import pymongo
-client = pymongo.MongoClient("yourlink")
+your_key = " mykeywere98393432jj3"
+client = pymongo.MongoClient(your_key)
 db = client.test
 ```

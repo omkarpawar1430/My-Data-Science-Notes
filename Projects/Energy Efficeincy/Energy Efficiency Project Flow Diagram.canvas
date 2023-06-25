@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"type":"text","text":"# app.py\n\n\n","id":"ccac44fb967b04c3","x":-60,"y":-220,"width":163,"height":60,"color":"1"},
+		{"type":"text","text":"#### Flask\nrender_template('index.html')\ntakes user data for prediction...","id":"4aa59236e484f065","x":-541,"y":-470,"width":320,"height":136,"color":"3"},
+		{"type":"text","text":"#### prediction_pipline.py\nCustiomData.get_data_as_dataframe()","id":"e786eec0949146bc","x":-640,"y":-50,"width":379,"height":120,"color":"2"},
+		{"type":"text","text":"#### prediction_pipeline.py\n\nPredictPipline.predict()\n\nUses model.pkl and preprocessor.pkl from training pipeline","id":"b6ac9af69d81018d","x":-194,"y":70,"width":431,"height":200,"color":"2"},
+		{"type":"text","text":"#### 1 data_ingestion.py\n\nDataIngestion\n**initiate_data_ingestion()**\n\nseparates train and test dataset and returns there path\n","id":"2a1834d4ee6d2407","x":-911,"y":775,"width":318,"height":210,"color":"5"},
+		{"type":"text","text":"#### 3 model_trainer.py\n**initiate_model_training()**","id":"1b3a7788b2f8dd4f","x":560,"y":783,"width":440,"height":128,"color":"5"},
+		{"type":"text","text":"#### training_pipeline.py\ncreates...\n1. model.pkl\n2. preprocessor.pkl \n\n\n","id":"c50849e7acf25b79","x":-156,"y":486,"width":356,"height":200,"color":"4"},
+		{"type":"text","text":"#### 2 data_transformation.py\nDataTransformation\n**initaite_data_transformation()**","id":"dab89aa6346b2227","x":-214,"y":775,"width":473,"height":144,"color":"5"},
+		{"type":"text","text":"#### utils.py\nsaveobject()\n\nsaves preprocessor_obj in .pkl","id":"7d149bbd187d8a17","x":-141,"y":1052,"width":327,"height":136,"color":"6"},
+		{"type":"text","text":"#### utils.py\nevaluate_model()\n\nevaluates best model from given model dict","id":"fc0a04ec3f0ee825","x":920,"y":1052,"width":354,"height":168,"color":"6"},
+		{"type":"text","text":"#### utils.py\nsaveobject()\n\nsaves best model in .pkl format","id":"109a4b4072a7a163","x":397,"y":1052,"width":327,"height":144,"color":"6"},
+		{"type":"text","text":"**get_data_transformation_object()**\n\nreturns processor for transforming data","id":"4aa21e24a8cb03cc","x":-546,"y":1056,"width":332,"height":128,"color":"5"},
+		{"type":"text","text":"#### utils.py\nl**oadobject()**\n\nloads model from model.pkl\nloads preprocessor form preprocessor.pkl","id":"4790f7571815c010","x":436,"y":306,"width":419,"height":180,"color":"6"},
+		{"type":"text","text":"#### Flask\nrender_template('result.html')\nshows prediction result...","id":"b2c99ac1770afad6","x":186,"y":-456,"width":312,"height":122,"color":"3"}
+	],
+	"edges":[
+		{"id":"6ee3c46924379a33","fromNode":"ccac44fb967b04c3","fromSide":"bottom","toNode":"e786eec0949146bc","toSide":"top"},
+		{"id":"beb375c5ccda0e20","fromNode":"4aa59236e484f065","fromSide":"right","toNode":"ccac44fb967b04c3","toSide":"top"},
+		{"id":"fcffa99a906698f7","fromNode":"ccac44fb967b04c3","fromSide":"left","toNode":"4aa59236e484f065","toSide":"bottom"},
+		{"id":"73346812dedca1f3","fromNode":"ccac44fb967b04c3","fromSide":"bottom","toNode":"b6ac9af69d81018d","toSide":"top"},
+		{"id":"1ed02c5ee0a18e5d","fromNode":"e786eec0949146bc","fromSide":"bottom","toNode":"b6ac9af69d81018d","toSide":"left"},
+		{"id":"08993658b09ff36c","fromNode":"b6ac9af69d81018d","fromSide":"bottom","toNode":"c50849e7acf25b79","toSide":"top"},
+		{"id":"7f0896ae22031c1a","fromNode":"4aa21e24a8cb03cc","fromSide":"top","toNode":"dab89aa6346b2227","toSide":"left"},
+		{"id":"467a2e450f5ce475","fromNode":"c50849e7acf25b79","fromSide":"left","toNode":"2a1834d4ee6d2407","toSide":"top"},
+		{"id":"80f9f8ab235c1644","fromNode":"c50849e7acf25b79","fromSide":"bottom","toNode":"dab89aa6346b2227","toSide":"top"},
+		{"id":"f721b56fec6dc644","fromNode":"c50849e7acf25b79","fromSide":"right","toNode":"1b3a7788b2f8dd4f","toSide":"top"},
+		{"id":"6ec49090f5017c23","fromNode":"dab89aa6346b2227","fromSide":"bottom","toNode":"7d149bbd187d8a17","toSide":"top"},
+		{"id":"7ed6b75903363d98","fromNode":"1b3a7788b2f8dd4f","fromSide":"bottom","toNode":"109a4b4072a7a163","toSide":"top"},
+		{"id":"baeac84befe95fa9","fromNode":"1b3a7788b2f8dd4f","fromSide":"bottom","toNode":"fc0a04ec3f0ee825","toSide":"top"},
+		{"id":"cc97ca14b727284e","fromNode":"fc0a04ec3f0ee825","fromSide":"bottom","toNode":"109a4b4072a7a163","toSide":"bottom"},
+		{"id":"a64375cada829565","fromNode":"c50849e7acf25b79","fromSide":"right","toNode":"4790f7571815c010","toSide":"bottom"},
+		{"id":"0bc3774b0544028e","fromNode":"4790f7571815c010","fromSide":"top","toNode":"b6ac9af69d81018d","toSide":"right"},
+		{"id":"fe89983c688dd533","fromNode":"ccac44fb967b04c3","fromSide":"right","toNode":"b2c99ac1770afad6","toSide":"bottom"},
+		{"id":"9f77280516ae50d1","fromNode":"b6ac9af69d81018d","fromSide":"top","toNode":"ccac44fb967b04c3","toSide":"bottom"}
+	]
+}

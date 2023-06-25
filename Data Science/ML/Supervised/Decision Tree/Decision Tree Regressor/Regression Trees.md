@@ -49,5 +49,5 @@ Overall, regression trees are a powerful tool that can be used for a variety of 
 >[!cite]
 > [[Decision Tree Regressor]]
 > [[Hyper-Parameter Tuning]]
-> [[Cross-validation]]
+> [[Cross-Validation]]
 > []()

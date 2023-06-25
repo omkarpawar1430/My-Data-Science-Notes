@@ -2,14 +2,18 @@
 Tags: #eda 
 
 ------------------------------------------
-
+- It is used when data don't have the same scale
+- Remember to apply the scaling separately to the training and testing data to avoid **data leakage** and maintain the integrity of your evaluation process.
+- scales the values between fixed range of [0,1]. 
+- 
+----------
 In EDA (Exploratory Data Analysis), it is common to normalize or scale the features in a dataset so that they have a similar range of values. This is done to avoid the issue of certain features dominating the analysis simply because they have larger values. Min-Max scaling is a common method for scaling numerical features in a dataset.
 
 The Min-Max scaler scales the values of a feature to a fixed range of [0,1], based on the minimum and maximum values of that feature in the dataset. The formula for Min-Max scaling is:
 
-`X_scaled = (X - X_min) / (X_max - X_min)`
-
-where X is the original value of the feature, X_min and X_max are the minimum and maximum values of the feature in the dataset, and X_scaled is the scaled value of the feature.
+>`X_scaled = (X - X_min) / (X_max - X_min)`
+>
+>where X is the original value of the feature, X_min and X_max are the minimum and maximum values of the feature in the dataset, and X_scaled is the scaled value of the feature.
 
 Min-Max scaling has the benefit of preserving the shape of the original distribution of the feature values, while also scaling them to a fixed range. This makes it easier to compare and visualize the features in the dataset.
 

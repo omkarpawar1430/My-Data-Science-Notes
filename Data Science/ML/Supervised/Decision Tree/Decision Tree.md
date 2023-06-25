@@ -14,7 +14,7 @@ There are different types of decision trees, including:
     
 2. [[Regression Trees]]: Used for regression tasks where the target variable is continuous, and the goal is to predict a numerical value.
     
-3. [[Ensemble Trees]]: Ensemble methods combine multiple decision trees to improve the overall performance and generalization of the model. Popular ensemble tree algorithms include Random Forest and Gradient Boosting.
+3. [[Ensemble Trees]]: Ensemble methods combine multiple decision trees to improve the overall performance and generalization of the model. Popular ensemble tree algorithms include [[Random Forest]] and Gradient Boosting.
     
 
 Decision trees are used in various domains and applications, including:

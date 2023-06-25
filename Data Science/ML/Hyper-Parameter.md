@@ -4,7 +4,13 @@ Date Created:  2023-06-04, @ 10:57
 
 ---
 >[!info] Keywords
->*
+>* Learning Rate
+>* Number of epochs
+>* Batch Size
+>* Regularization
+>* Grid Search
+>* Random Search
+>* Bayesian optimization
 
 In machine learning, a **hyperparameter** is a parameter whose value is set before the learning process begins. By contrast, the values of other parameters (typically node weights) are derived via training. Hyperparameters can be classified as model hyperparameters, that cannot be inferred while fitting the machine to the training set because they refer to the model selection task, or algorithm hyperparameters, that in principle have no influence on the performance of the model but affect the speed and quality of the learning process. An example of a model hyperparameter is the topology and size of a neural network.
 
@@ -29,10 +35,14 @@ Hyperparameter tuning is an important part of machine learning. By tuning the hy
 
 
 >[!summary] 
->1. ...
->2. ...
+>1. Hyperparameter is parameter who's values is set before learning process starts for the ML model.
+>2. Hyperparameter have no impact on Performance of ML model but it effects speed and quality of learning process. 
+>3. By tuning these Hyperparameter we can increase the accuracy. 
+>4. We can use techniques like Grid search, Random Search and Bayesian Optimization for tuning it. 
+>5. 
 
 ----
 >[!cite]
+>ChatGPT
 > [[]]
-> []()
+> [Author - Omkar Pawar](https://www.linkedin.com/in/omkarpawar1430/)
