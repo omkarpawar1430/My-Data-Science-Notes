@@ -8,7 +8,7 @@ Date Created:  2023-06-17, @ 12:19
 
 Bagging is a  [[Ensemble Techniques]] which is a Combination of [[Boot Strapping]] and [[Aggregation]]. It uses multiple models parallaly. 
 
-![[Bagging.excalidraw]]
+![[Bagging.excalidraw | 1000]]
 ### Steps:
 
 1. We take Big Dataset and take lot of subsets from it randomly (i.e. random columns and random rows, which is nothing but bootstrapping.)

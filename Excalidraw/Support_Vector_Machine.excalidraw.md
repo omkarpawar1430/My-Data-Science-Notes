@@ -3786,7 +3786,7 @@ overlapping data points ^N2Z3xpdY
 			"containerId": null,
 			"originalText": "overlapping data points",
 			"lineHeight": 1.25,
-			"baseline": 13
+			"baseline": 14
 		},
 		{
 			"type": "freedraw",
@@ -3954,7 +3954,7 @@ overlapping data points ^N2Z3xpdY
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
@@ -3968,10 +3968,10 @@ overlapping data points ^N2Z3xpdY
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 481.3463633883789,
-		"scrollY": 326.4930400393996,
+		"scrollX": 475.47350608873,
+		"scrollY": 333.73394930888594,
 		"zoom": {
-			"value": 1.35
+			"value": 1.4500000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

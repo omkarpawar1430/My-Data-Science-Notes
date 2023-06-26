@@ -24,5 +24,6 @@ Date Created:  {{date}}, @ {{time}}
 
 ----
 >[!cite]
-> [[]]
-> []()
+> Connect with Me: 
+> https://chat.openai.com/
+> 
