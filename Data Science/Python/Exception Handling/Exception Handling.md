@@ -46,6 +46,8 @@ try:
     # Code that might raise an exception
 except Exception as e:
     # Handle the exception
+else:
+	# runs when if exception is not raise
 finally:
     # Cleanup tasks
 ```

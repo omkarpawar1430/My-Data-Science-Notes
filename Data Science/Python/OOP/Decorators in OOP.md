@@ -6,8 +6,20 @@ Date Created:  2023-06-15, @ 09:48
 >[!info] Keywords
 >* @dataclass 
 
-### @dataclass:
+decorators are a powerful feature that allow you to modify the behavior of functions, methods, or classes **without directly changing their source code**. Decorators provide a way to wrap or enhance the functionality of a target object by adding additional code before or after its execution.
 
+### Use Cases:
+- Adding logging or timing functionality to functions or methods.
+- Implementing caching mechanisms to avoid redundant computations.
+- Enforcing authorization or authentication checks for access control.
+- Modifying the behavior of classes or methods based on certain conditions.
+
+By using decorators, you can keep your code modular, reusable, and easier to maintain. Decorators provide a clean and elegant way to extend or modify the functionality of objects without modifying their original source code.
+
+
+
+### @dataclass:
+for more [[Dataclass Module]]
 Here are some of the benefits of using the @dataclass decorator:
 
 - **Reduces boilerplate code:** The @dataclass decorator automatically generates special methods for a class, such as **init**(), **repr**(), and **eq**(). This can help to reduce the amount of code that needs to be written.

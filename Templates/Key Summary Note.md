@@ -24,6 +24,7 @@ Date Created:  {{date}}, @ {{time}}
 
 ----
 >[!cite]
-> Connect with Me: 
-> https://chat.openai.com/
+> Connect with Me: https://www.linkedin.com/in/omkarpawar1430/
+> [ChatGPT](https://chat.openai.com/)
+> 
 > 

@@ -28,7 +28,7 @@ Stacking can be useful in situations where you have a collection of diverse base
 
 Pros:
 
-- Improved predictive performance: Stacking can lead to higher accuracy and better generalization compared to using individual models alone.
+- Improved predictive performance: Stacking can lead to higher accuracy and better generalisation compared to using individual models alone.
 - Model combination: Stacking allows you to combine the strengths of different models, leveraging their diverse approaches to problem-solving.
 - Flexibility: You can experiment with various base models and meta-models to find the best combination for your specific problem.
 

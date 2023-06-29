@@ -1,0 +1,1 @@
+![basics of python]('/home/omkar/Omkar Pawar/OBSIDIAN/My Data Science Notes/Code Notebook/python_basic_syntax.ipynb')

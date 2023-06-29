@@ -3749,8 +3749,8 @@ overlapping data points ^N2Z3xpdY
 		},
 		{
 			"type": "text",
-			"version": 128,
-			"versionNonce": 405023302,
+			"version": 198,
+			"versionNonce": 890402048,
 			"isDeleted": false,
 			"id": "N2Z3xpdY",
 			"fillStyle": "hachure",
@@ -3759,8 +3759,8 @@ overlapping data points ^N2Z3xpdY
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 91.50825351151968,
-			"y": -201.4984480877813,
+			"x": 59.811272717248926,
+			"y": -215.23376150330864,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 183.45640563964844,
@@ -3774,7 +3774,7 @@ overlapping data points ^N2Z3xpdY
 					"type": "arrow"
 				}
 			],
-			"updated": 1686380621752,
+			"updated": 1687859660218,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -3829,8 +3829,8 @@ overlapping data points ^N2Z3xpdY
 		},
 		{
 			"type": "arrow",
-			"version": 165,
-			"versionNonce": 267579782,
+			"version": 242,
+			"versionNonce": 859527936,
 			"isDeleted": false,
 			"id": "BoL_FTC9Qy-TIVEOpjy23",
 			"fillStyle": "solid",
@@ -3843,15 +3843,15 @@ overlapping data points ^N2Z3xpdY
 			"y": -132.0849055168901,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 27.77777777777783,
-			"height": 45.26749222366897,
+			"width": 3.196426127663443,
+			"height": 59.00280563919631,
 			"seed": 1924976006,
 			"groupIds": [],
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1686380621752,
+			"updated": 1687859660218,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -3869,16 +3869,16 @@ overlapping data points ^N2Z3xpdY
 					0
 				],
 				[
-					27.77777777777783,
-					-45.26749222366897
+					3.196426127663443,
+					-59.00280563919631
 				]
 			]
 		},
 		{
 			"type": "freedraw",
-			"version": 4,
-			"versionNonce": 1376997850,
-			"isDeleted": false,
+			"version": 5,
+			"versionNonce": 1155224832,
+			"isDeleted": true,
 			"id": "ugIg3xIPpGmcPYIPG0z2Y",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -3896,7 +3896,7 @@ overlapping data points ^N2Z3xpdY
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1686380621752,
+			"updated": 1687859645998,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3915,9 +3915,9 @@ overlapping data points ^N2Z3xpdY
 		},
 		{
 			"type": "freedraw",
-			"version": 4,
-			"versionNonce": 149344454,
-			"isDeleted": false,
+			"version": 5,
+			"versionNonce": 413709568,
+			"isDeleted": true,
 			"id": "RurghfvVCylHVI_wbBTjw",
 			"fillStyle": "solid",
 			"strokeWidth": 0.5,
@@ -3935,7 +3935,7 @@ overlapping data points ^N2Z3xpdY
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1686380621752,
+			"updated": 1687859647632,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -3968,10 +3968,10 @@ overlapping data points ^N2Z3xpdY
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 475.47350608873,
-		"scrollY": 333.73394930888594,
+		"scrollX": 483.1242383702944,
+		"scrollY": 330.19187223341,
 		"zoom": {
-			"value": 1.4500000000000002
+			"value": 1.2000000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
