@@ -26,9 +26,14 @@
 
 In general terms, a query in SQL is **a request to databases to fetch (or retrieve) the information.**
 
+```Syntax 
 
+SQL KEYWORDS database related words
+```
 
 ---
 ### Links :
 [[RDBMS]] 
 [[MySQL Queries]]
+https://www.w3schools.com/MySQL/mysql_rdbms.asp
+

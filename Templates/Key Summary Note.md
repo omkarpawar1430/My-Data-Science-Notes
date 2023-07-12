@@ -4,7 +4,8 @@ Date Created:  {{date}}, @ {{time}}
 
 ---
 >[!info] Keywords
->*
+>* 
+>* 
 
 
 
@@ -19,8 +20,8 @@ Date Created:  {{date}}, @ {{time}}
 
 
 >[!summary] 
->1. ...
->2. ...
+>1. 
+>2. 
 
 ----
 >[!cite]

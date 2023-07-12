@@ -15,7 +15,7 @@ The interquartile range (IQR) is a measure of the spread or dispersion of a data
 	Q2 = median of 100% of data
 	Q3 = median of second 50 % data
 
-$IQR = Q3 - Q1 = 39 - 20 = 19$
+> $IQR = Q3 - Q1 = 39 - 20 = 19$
 
 ![https://i0.wp.com/statisticsbyjim.com/wp-content/uploads/2018/03/interquartile_range.png?w=576&ssl=1](https://i0.wp.com/statisticsbyjim.com/wp-content/uploads/2018/03/interquartile_range.png?w=576&ssl=1)
 
@@ -27,15 +27,12 @@ IQR is a useful measure of dispersion because it is not sensitive to outliers or
 
 --- 
 
-the lower fence is defined as:
+>the [[lower fence]] is defined as:
+>`lower fence = Q1 - k * IQR`
+>and the [[upper fence]] is defined as:
+>`upper fence = Q3 + k * IQR`
 
-`lower fence = Q1 - k * IQR`
-
-and the upper fence is defined as:
-
-`upper fence = Q3 + k * IQR`
-
-where `Q1` and `Q3` are the first and third quartiles of the data, respectively, and `IQR` is the interquartile range, defined as `IQR = Q3 - Q1`. The value `k` is a constant that determines how far the fences are from the quartiles, and is typically set to 1.5 in the Tukey method.
+where `Q1` and `Q3` are the first and third quartiles of the data, respectively, and `IQR` is the interquartile range, defined as `IQR = Q3 - Q1`. The value `k` is a constant that determines how far the fences are from the quartiles, and is typically set to **1.5** in the Tukey method.
 
 We can identify outliers from our dataset using Upper fence and lower fence 
 ##### Demo Code:

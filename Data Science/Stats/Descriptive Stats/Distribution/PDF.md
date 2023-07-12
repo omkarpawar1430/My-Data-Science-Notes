@@ -8,7 +8,7 @@ Tags: #stats
 ![[Pasted image 20230505202743.png]]
 
 - A probability density function describes a probability distribution for a  continuous random variable.
-- Use a probability density function to find the chances that the value of a random variable will occur within a range of values that you specify.
+- Use a probability density function **to find the chances that the value of a random variable will occur within a range of values that you specify**.
 - Probability density functions can find non-zero likelihoods for a continuous random variable X falling within the interval [a, b].
 - The total area under the curve equals one on a probability density plot, representing the total probability of 1 for the full range of possible values in the distribution.
 - Finding the chances for a smaller range of interest involves finding the portion of the area under the curve corresponding to that range.

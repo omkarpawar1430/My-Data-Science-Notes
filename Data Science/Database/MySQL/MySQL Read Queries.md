@@ -3,6 +3,7 @@ Tags: #mysql
 
 ------------------------------------------
 #### Basic: 
+0. `show tables;`: shows tables from selected data base 
 1. `select * from table_name;`: shows whole table ,  `*` means you are selecting all of the values
 ```
 mysql> select * from coffee_table;
@@ -104,6 +105,7 @@ mysql> SELECT
 
 ```
 8. `select * from table_name limit integer;`:  `int` as how many rows you want to fetch
+	If you set limit to be more than records than we have then it give all records without error 💀
 ```
 mysql> select * from coffee_table limit 3;
 +------+------------+-------------+--------+
@@ -128,7 +130,7 @@ mysql> select * from coffee_table order by rand() limit 3;
 3 rows in set (0.00 sec)
 ```
 10. `select * from table_name where col_name IS NULL;` :  to check if given column has null values or not : `IS NOT NULL`
-```
+```MySQL
 mysql> select * from coffee_table where roast IS NOT NULL;
 +------+------------+-------------+----------+
 | id   | name       | region      | roast    |
@@ -142,26 +144,114 @@ mysql> select * from coffee_table where roast IS NOT NULL;
 +------+------------+-------------+----------+
 6 rows in set (0.00 sec)
 ```
-11. `select * from table_name where (name LIKE 'O%' or roast LIKE '%um');`: we can choose if we want to look for certain words in string/if that string starts or ends with certain combination of letters
+
+- Using `WHERE` condition:
+
+```MySQL
+SELECT CustomerName, Country FROM Customers WHERE Country = 'Mexico';
+
 ```
-mysql> select * from coffee_table where (name LIKE 'O%' or roast LIKE '%um');
-+------+------------+-------------+--------+
-| id   | name       | region      | roast  |
-+------+------------+-------------+--------+
-|    1 | Omkar      | Technoworld | medium |
-|    2 | docker run | mexico      | medium |
-|    3 | helpdesk   | honduras    | medium |
-|    4 | on-call    | peru        | dark   |
-+------+------------+-------------+--------+
-4 rows in set (0.00 sec)
+
+```output
++------------------------------------+---------+
+| CustomerName                       | Country |
++------------------------------------+---------+
+| Ana Trujillo Emparedados y helados | Mexico  |
+| Antonio Moreno Taquería            | Mexico  |
++------------------------------------+---------+
+
 ```
 
 ---
 
+#### `IN`
+- looking for multiple values at same time
+
+```mysql
+SELECT ContactName, Country FROM Customers WHERE Country IN ('Germany', 'France', 'UK');
+```
+
+```output
++--------------+---------+
+| ContactName  | Country |
++--------------+---------+
+| Maria Anders | Germany |
+| Thomas Hardy | UK      |
++--------------+---------+
+```
+
+- using `NOT` with `IN`:
+
+```MySQL
+
+SELECT ContactName, Country FROM Customers WHERE Country NOT IN ('Germany', 'France', 'UK');
+```
+
+```Output
++--------------------+---------+
+| ContactName        | Country |
++--------------------+---------+
+| Ana Trujillo       | Mexico  |
+| Antonio Moreno     | Mexico  |
+| Christina Berglund | Sweden  |
++--------------------+---------+
+```
+
+---------
+#### `BETWEEN`
+
+Selects values within a given range. The values can be numbers, text, or dates.
+The `BETWEEN` operator is inclusive: begin and end values are included.
+
+```MySQL
+ SELECT * FROM Products WHERE Price BETWEEN 10 AND 20;
+```
+
+```Output
++-----------+---------------+------------+------------+---------------------+-------+
+| ProductID | ProductName   | SupplierID | CategoryID | Unit                | Price |
++-----------+---------------+------------+------------+---------------------+-------+
+|         1 | Chais         |          1 |          1 | 10 boxes x 20 bags  | 18.00 |
+|         2 | Chang         |          1 |          1 | 24 - 12 oz bottles  | 19.00 |
+|         3 | Aniseed Syrup |          1 |          2 | 12 - 550 ml bottles | 10.00 |
++-----------+---------------+------------+------------+---------------------+-------+
+```
+
+#### `DISTINCT`
+works like `unique()` from pandas and shows unique entries only
+
+```mysql
+SELECT DISTINCT Country FROM Customers;
+```
+
+```Output
++---------+
+| Country |
++---------+
+| Germany |
+| Mexico  |
+| UK      |
+| Sweden  |
++---------+
+```
+
+13. `SELECT COUNT(DISTINCT Country) FROM Customers;`: gives count of unique values
+
+```MYSQL
+mysql> SELECT COUNT(DISTINCT Country) FROM Customers;
++-------------------------+
+| COUNT(DISTINCT Country) |
++-------------------------+
+|                       4 |
++-------------------------+
+
+```
+
+
 #### Sorting Query Result:
 
 ![[Pasted image 20230515195314.png]]
-1. `select name, hire_date from emp where manager_id = 1 order by salary asc;`: Returning Query Results in a Specified Order , by default `order by` is set to `asc`
+1. `select name, hire_date from emp where manager_id = 1 order by salary asc;`: Returning Query Results in a Specified Order , ==by default `order by` is set to `asc`==
 ```
 mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
 +--------------+------------+
@@ -177,7 +267,7 @@ mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
 ```
 2. Sorting by Multiple Fields: `order by`
 ```
-mysql> select name, age, hire_date from emp order by department_id, salary desc;
+mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
 +----------------+------+------------+
 | name           | age  | hire_date  |
 +----------------+------+------------+
@@ -233,9 +323,10 @@ mysql> select name, age from (
 8 rows in set (0.00 sec)
 
 ```
-5. 
+
 
 ---------------------
 #### links:
-[[]]
+[[MySQL Maths Queries]]
+[[MySQL Pattern Match]]
 [[]]

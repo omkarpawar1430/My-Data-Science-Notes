@@ -23,14 +23,14 @@ The five-number summary is useful for quickly summarizing the distribution of a 
 
 Step 2: Find the minimum and maximum values:
 
-Minimum: 16
-Maximum: 91
+**Minimum: 16
+Maximum: 91**
 
 Step 3: Find the median (Q2):
 
 Median (Q2): The middle value of the data set. In this case, we have an even number of values, so we take the average of the two middle values:
 
-Median (Q2) = (50 + 55)/2 = 52.5
+**Median (Q2) = (50 + 55)/2 = 52.5**
 
 Step 4: Find the first quartile (Q1):
 
@@ -48,7 +48,7 @@ Q1: The value below which 25% of the data falls. To find Q1, we divide the data 
 
 Lower half: 16, 20, 25, 29, 33, 35, 38, 41, 42, 50
 
-Median of lower half (Q1) = (33 + 35)/2 = 34
+**Median of lower half (Q1) = (33 + 35)/2 = 34**
 
 Step 5: Find the third quartile (Q3):
 

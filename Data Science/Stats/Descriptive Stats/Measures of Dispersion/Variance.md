@@ -5,7 +5,7 @@ Tags: #stats
 
 Variance is a statistical measure of the spread or dispersion of a dataset. It measures how much the individual data points deviate from the mean of the dataset. A high variance indicates that the data points are spread out over a wide range of values, while a low variance indicates that the data points are clustered closely around the mean.
 
-Variance can be a useful tool in data analysis, but it is important to keep in mind that it can be sensitive to outliers or extreme values in the dataset. In such cases, it may be more appropriate to use other measures of dispersion, such as the interquartile range, which are less sensitive to outliers.
+Variance can be a useful tool in data analysis, but it is important to keep in mind that it can be **sensitive to outliers or extreme values in the dataset.** In such cases, it may be more appropriate to use other measures of dispersion, such as the interquartile range, which are less sensitive to outliers.
 
 - population variance
     
@@ -21,7 +21,7 @@ Variance can be a useful tool in data analysis, but it is important to keep in m
     By dividing by n - 1 instead of n, we are effectively "penalizing" the sample variance slightly to account for the fact that we are estimating the population variance using only a subset of the data. This adjustment makes the sample variance a more accurate estimate of the population variance, and it also ensures that the variance estimate is unbiased.
     
     In summary, we divide by n - 1 instead of n when we calculate sample variance because we need to adjust the calculation to account for the fact that we have one less degree of freedom than we would if we had the full population data. This adjustment makes the variance estimate more accurate and ensures that it is an unbiased estimator of the population variance.
-    
+
 
 ![https://i0.wp.com/statisticsbyjim.com/wp-content/uploads/2018/03/Variance_worksheet.png?w=336&ssl=1](https://i0.wp.com/statisticsbyjim.com/wp-content/uploads/2018/03/Variance_worksheet.png?w=336&ssl=1)
 

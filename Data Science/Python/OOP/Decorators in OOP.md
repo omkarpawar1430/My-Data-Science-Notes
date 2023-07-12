@@ -14,19 +14,24 @@ decorators are a powerful feature that allow you to modify the behavior of funct
 - Enforcing authorization or authentication checks for access control.
 - Modifying the behavior of classes or methods based on certain conditions.
 
-By using decorators, you can keep your code modular, reusable, and easier to maintain. Decorators provide a clean and elegant way to extend or modify the functionality of objects without modifying their original source code.
+By using decorators, you can keep your code **modular**, **reusable**, and easier to maintain. Decorators provide a clean and elegant way to extend or modify the functionality of objects without modifying their original source code.
 
+-----
+## Types of Decorators: 
+1. [[@custom_decorators]]: we can create a nested function which acts as decorator
+1. `@classmethod`: Defines a class method within a class.
+2. `@property`: Defines a method as a property of a class, allowing attribute-like access.
+3. `@abstractmethod`: Declares an abstract method within an abstract base class.
+4. [[@staticmethod]]: Defines a static method within a class.
+6. `@property`: Defines a method as a property of a class, allowing attribute-like access.
+7. `@abstractmethod`: Declares an abstract method within an abstract base class.
+9. `@property`: Defines a method as a property of a class, allowing attribute-like access.
+10. `@abstractmethod`: Declares an abstract method within an abstract base class.
+11. [[@dataclass]]: Automatically generates boilerplate code for classes that hold data.
+12. `@functools.wraps`: Preserves the original function's metadata when defining decorators.
+13. `@functools.lru_cache`: Caches the results of a function, improving its performance for repeated calls with the same arguments.
+14. `@contextlib.contextmanager`: Defines a context manager using a generator function.
 
-
-### @dataclass:
-for more [[Dataclass Module]]
-Here are some of the benefits of using the @dataclass decorator:
-
-- **Reduces boilerplate code:** The @dataclass decorator automatically generates special methods for a class, such as **init**(), **repr**(), and **eq**(). This can help to reduce the amount of code that needs to be written.
-- **Makes classes more concise and readable:** The @dataclass decorator can help to make classes more concise and readable by automatically generating special methods. This can make code easier to understand and maintain.
-- **Provides a consistent API:** The @dataclass decorator provides a consistent API for creating data classes. This can make it easier to work with data classes in different projects.
-
-If you are creating a **class that is primarily used to store data**, and that does not need to define a lot of custom methods, then you should consider using the @dataclass decorator.
 
 ------
 
@@ -38,5 +43,6 @@ If you are creating a **class that is primarily used to store data**, and that d
 
 ----
 >[!cite]
-> [[]]
-> []()
+> https://www.geeksforgeeks.org/decorators-in-python/
+> 
+

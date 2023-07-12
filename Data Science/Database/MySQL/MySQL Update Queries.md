@@ -32,10 +32,16 @@ UPDATE YourTableName
 SET city = 'New York'
 WHERE id = 1;
 ```
-3. 
+
+
+>[!warning]
+>Be careful when updating records. If you omit the `WHERE` clause, ALL records will be updated!
+
+
+
 
 
 ---------------------
 #### links:
-[[]]
+https://www.w3schools.com/MySQL/mysql_update.asp
 [[]]

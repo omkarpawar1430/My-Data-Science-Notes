@@ -14,7 +14,7 @@ Tags: #python
 ### Some Modules:
 [[OS module]]
 [[Sys Module]]
-[[Dataclass Module]]
+[[@dataclass]]
 
 
 #### Links:

@@ -62,7 +62,7 @@ For example, if we have the following set of data: 5, 7, 10, 10, 12, 15, the mod
     
     In Summary, When you have a symmetrical distribution for continuous data, the mean, median, and mode are equal. In this case, analysts tend to use the mean because it includes all of the data in the calculations. However, if you have a skewed distribution, the median is often the best measure of central tendency.
     
-    When you have ordinal data, the median or mode is usually the best choice. For categorical data, you must use the mode.
+    **When you have ordinal data, the median or mode is usually the best choice. For categorical data, you must use the mode.**
 
 
 

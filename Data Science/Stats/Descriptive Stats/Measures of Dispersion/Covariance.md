@@ -16,17 +16,6 @@ Covariance measures the extent to which two variables vary together. More specif
 [[Correlation]], on the other hand, is a standardized measure of association between two variables. It measures the strength and direction of the linear relationship between two variables. The correlation coefficient can range from -1 to +1, with a correlation of +1 indicating a perfect positive relationship, a correlation of -1 indicating a perfect negative relationship, and a correlation of 0 indicating no relationship. Correlation is unitless and invariant to changes in scale of measurement of the variables.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ---------------------
 #### links:
 [[Correlation]]

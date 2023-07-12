@@ -7,6 +7,7 @@ Date Created:  2023-06-17, @ 17:04
 >*
 
 1. Boosting uses Multiple models sequentially.
+2. Boosting requires more care while applying because of `1`
 
 ---
 ### In Layman Terms:
@@ -25,6 +26,8 @@ So, boosting is like assembling a team of experts, where each expert learns from
 
 In machine learning, boosting is an ensemble technique used to improve the performance of a base learning algorithm by combining multiple weak models into a strong predictive model. Boosting algorithms **iteratively build a series of weak models**, where each subsequent model focuses on correcting the mistakes made by the previous models.
 
+==decision stumps (one-level decision trees)==
+
 There are several types of boosting algorithms, including:
 
 1. [[AdaBoost]] (Adaptive Boosting): It assigns weights to training instances and adjusts them based on the performance of each model iteration. Instances that are misclassified receive higher weights to ensure they are given more attention in subsequent iterations.
@@ -36,7 +39,8 @@ There are several types of boosting algorithms, including:
 4. LightGBM: It is a gradient boosting framework that uses a tree-based learning algorithm. LightGBM is known for its fast and efficient training speed and is often used in large-scale applications.
     
 5. [[CatBoost]]: It is another gradient boosting framework that handles categorical features naturally. It incorporates a novel algorithm to deal with categorical variables and provides robust performance.
-    
+	
+6. [[stochastic boosting]]:  
 
 Boosting algorithms are commonly used when there is a need for high predictive accuracy in machine learning tasks, such as classification and regression. Here are some advantages of using boosting:
 

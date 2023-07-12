@@ -4,7 +4,9 @@ Date Created:  2023-06-23, @ 11:07
 
 ---
 >[!info] Keywords
->*  
+>*  meta model
+>* base model 
+>* meta data 
 
 ![[stacking.excalidraw | 1000]]
 

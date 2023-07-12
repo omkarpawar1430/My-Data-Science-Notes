@@ -7,7 +7,8 @@ Tags: #stats
 - Discrete Random Variable & Continuous Random Variable
     
     In summary, the main difference between discrete and continuous random variables is that a discrete random variable can only take on specific values, while a continuous random variable can take on any value within a range. Additionally, the PMF is used to describe the probability distribution of a discrete random variable, while the PDF is used to describe the probability distribution of a continuous random variable.
-[Probability Distribution Functions (PMF, PDF, CDF)](https://youtu.be/YXLVjCKVP7U)
+    
+![Probability Distribution Functions (PMF, PDF, CDF)](https://youtu.be/YXLVjCKVP7U)
 
 - definition
     - A probability distribution function (PDF) is a mathematical function that describes the probability of a random variable taking on a particular value or falling within a specific range of values.
