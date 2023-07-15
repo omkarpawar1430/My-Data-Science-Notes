@@ -1,19 +1,11 @@
 ------------------------- 
 Tags: 
-⏰ Date Created:  {{date}}, @ {{time}}
+⏰ Date Created:  2023-07-15, @ 22:34
 
 ---
 >[!info] Keywords
 >* 
 >* 
-
-
-
-
-
-
-
-
 
 
 

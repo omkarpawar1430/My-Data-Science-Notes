@@ -40,6 +40,8 @@ The factor `alpha` ensures that model with lower error have a bigger weight.
 >2. 
 
 ----
->[!cite]
+>[!cite] 
+>
+> https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
 > 
-> https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+> [SkLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)

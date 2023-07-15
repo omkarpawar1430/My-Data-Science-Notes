@@ -73,11 +73,9 @@ Date Created:  2023-05-30, @ 11:20
 #### Links:
 	[[]]
 ==HI==
-adding link 
+adding link  
 [link](obsidian://open?vault=My%20Data%20Science%20Notes&file=Orphans%2FVocabulary)
-
-
-
+![My Video](https://youtu.be/57OO7_ZQV_4)
 embedding: 
 
 ![[temp tip]]

@@ -1,12 +1,35 @@
 
 Tags: #mysql 
+💗 Subscribe to our YouTube Channel: https://www.youtube.com/@optimisticomkar
 
 ------------------------------------------
-#### Basic: 
-0. `show tables;`: shows tables from selected data base 
-1. `select * from table_name;`: shows whole table ,  `*` means you are selecting all of the values
+#### Basic Reading Queries: 
+
+#### `SHOW TABLES;`
+
+`show tables;`: shows tables FROM SELECTed data base 
+
+```MySQL
+SHOW TABLES;
 ```
-mysql> select * from coffee_table;
+
+```Output
++---------------------+
+| Tables_in_nc_coffee |
++---------------------+
+| coffee_table        |
++---------------------+
+```
+
+#### `SELECT ... FROM ...`
+
+ `SELECT * FROM table_name;`: shows whole table ,  `*` means you are SELECTing all of the values
+
+```mysql
+SELECT * FROM coffee_table;
+```
+
+``` output
 +------+------------+-------------+----------+
 | id   | name       | region      | roast    |
 +------+------------+-------------+----------+
@@ -17,33 +40,15 @@ mysql> select * from coffee_table;
 |    5 | ifconfig   | tanzania    | blonde   |
 |    6 | traceroute | bali        | med-dark |
 +------+------------+-------------+----------+
-6 rows in set (0.00 sec)
 ```
-2. `select * from table_name where condition;`: Gives you ability to apply conditions 
-```
-mysql> select * from coffee_table where roast = 'medium';
-+------+------------+-------------+--------+
-| id   | name       | region      | roast  |
-+------+------------+-------------+--------+
-|    1 | Omkar      | Technoworld | medium |
-|    2 | docker run | mexico      | medium |
-|    3 | helpdesk   | honduras    | medium |
-+------+------------+-------------+--------+
-3 rows in set (0.00 sec)
 
+ `SELECT col1, col2, ... FROM table_name;`:to see values for specific columns rather than for all the columns.
+
+```mysql
+SELECT name, roast FROM coffee_table;
 ```
-3. `select * from table_name where cond1 and cond2;`  :to return rows that satisfy multiple conditions. Similar to `and` we can use `or` and `not`.  
-```
-mysql> select * from coffee_table where roast = 'medium' and region = 'mexico';
-+------+------------+--------+--------+
-| id   | name       | region | roast  |
-+------+------------+--------+--------+
-|    2 | docker run | mexico | medium |
-+------+------------+--------+--------+
-```
-4. `select col1, col2, ... from table_name;`:to see values for specific columns rather than for all the columns.
-```
-mysql> select name, roast from coffee_table;
+
+```output
 +------------+----------+
 | name       | roast    |
 +------------+----------+
@@ -54,11 +59,51 @@ mysql> select name, roast from coffee_table;
 | ifconfig   | blonde   |
 | traceroute | med-dark |
 +------------+----------+
-6 rows in set (0.00 sec)
 ```
-5. `select old_col_name as new_col_name from coffee_table;`: in here  `as`  keywords replaces old name with new name for columns. We can use multiple `as` separated by comma `,`
+
+#### `WHERE`
+
+`SELECT * FROM table_name WHERE condition;`: Gives you ability to apply conditions 
+
+```mysql
+SELECT * FROM coffee_table WHERE roast = 'medium';
 ```
-mysql> select name as customer from coffee_table;
+
+```output
++------+------------+-------------+--------+
+| id   | name       | region      | roast  |
++------+------------+-------------+--------+
+|    1 | Omkar      | Technoworld | medium |
+|    2 | docker run | mexico      | medium |
+|    3 | helpdesk   | honduras    | medium |
++------+------------+-------------+--------+
+```
+
+#### `AND`, `OR` and `NOT`
+
+`SELECT * FROM table_name WHERE cond1 and cond2;`  :to return rows that satisfy multiple conditions. You can use  `and` `or` and `not` for checking multiple conditions.   
+
+```mysql
+SELECT * FROM coffee_table WHERE roast = 'medium' and region = 'mexico';
+```
+
+```output
++------+------------+--------+--------+
+| id   | name       | region | roast  |
++------+------------+--------+--------+
+|    2 | docker run | mexico | medium |
++------+------------+--------+--------+
+```
+
+#### `AS`
+
+ `SELECT old_col_name as new_col_name FROM coffee_table;`: in here  `as`  keywords replaces old name with new name for columns. We can use multiple `as` separated BY comma `,`
+
+```mysql
+SELECT name AS customer FROM coffee_table;
+```
+
+```output
 +------------+
 | customer   |
 +------------+
@@ -70,20 +115,28 @@ mysql> select name as customer from coffee_table;
 | traceroute |
 +------------+
 ```
-6. `select concat(col1,' any_message ', col2) as col_title from table_name where codition;`  : concatenating two columns form tables 
+
+#### `CONCAT()`
+
+`SELECT concat(col1,' any_message ', col2) as col_title FROM table_name WHERE codition;`  : concatenating two columns form tables 
+
+```mysql
+SELECT concat(name,' is FROM ', region) as location FROM coffee_table WHERE roast = 'medium';
 ```
-mysql> select concat(name,' is from ', region) as location from coffee_table where roast = 'medium';
+
+```output
 +---------------------------+
 | location                  |
 +---------------------------+
-| Omkar is from Technoworld |
-| docker run is from mexico |
-| helpdesk is from honduras |
+| Omkar is FROM Technoworld |
+| docker run is FROM mexico |
+| helpdesk is FROM honduras |
 +---------------------------+
-3 rows in set (0.00 sec)
 ```
-7. Using conditional Loops:
-```
+
+Using conditional Loops:
+
+```mysql
 mysql> SELECT
     ->   name,
     ->   (CASE roast
@@ -91,6 +144,9 @@ mysql> SELECT
     ->     ELSE 'Not Ready'
     ->   END) AS status
     -> FROM coffee_table;
+```
+
+```output
 +------------+-----------+
 | name       | status    |
 +------------+-----------+
@@ -101,13 +157,18 @@ mysql> SELECT
 | ifconfig   | Not Ready |
 | traceroute | Not Ready |
 +------------+-----------+
-6 rows in set (0.00 sec)
+```
 
+#### `LIMIT`
+
+`SELECT * FROM table_name LIMIT integer;`:  `int` as how many rows you want to fetch
+	(If you set limit to be more than records than we have then it give all records without error 💀)
+
+```MySQL
+SELECT * FROM coffee_table LIMIT 3;
 ```
-8. `select * from table_name limit integer;`:  `int` as how many rows you want to fetch
-	If you set limit to be more than records than we have then it give all records without error 💀
-```
-mysql> select * from coffee_table limit 3;
+
+```Output
 +------+------------+-------------+--------+
 | id   | name       | region      | roast  |
 +------+------------+-------------+--------+
@@ -115,11 +176,17 @@ mysql> select * from coffee_table limit 3;
 |    2 | docker run | mexico      | medium |
 |    3 | helpdesk   | honduras    | medium |
 +------+------------+-------------+--------+
+```
 
+#### `RAND()`
+
+`mysql> SELECT * FROM coffee_table ORDER BY rand() limit 3;` : Returning n Random Records FROM a Table
+
+```MySQL
+SELECT * FROM coffee_table ORDER BY rand() LIMIT 3;
 ```
-9. `mysql> select * from coffee_table order by rand() limit 3;` : Returning n Random Records from a Table
-```
-mysql> select * from coffee_table order by rand() limit 3;
+
+```Output
 +------+----------+-------------+--------+
 | id   | name     | region      | roast  |
 +------+----------+-------------+--------+
@@ -127,11 +194,17 @@ mysql> select * from coffee_table order by rand() limit 3;
 |    4 | on-call  | peru        | dark   |
 |    1 | Omkar    | Technoworld | medium |
 +------+----------+-------------+--------+
-3 rows in set (0.00 sec)
 ```
-10. `select * from table_name where col_name IS NULL;` :  to check if given column has null values or not : `IS NOT NULL`
+
+#### `IS NULL` and `IS NOT NULL`
+
+`SELECT * FROM table_name WHERE col_name IS NULL;` :  to check if given column has null values or not : `IS NOT NULL`
+
 ```MySQL
-mysql> select * from coffee_table where roast IS NOT NULL;
+SELECT * FROM coffee_table WHERE roast IS NOT NULL;
+```
+
+```Output
 +------+------------+-------------+----------+
 | id   | name       | region      | roast    |
 +------+------------+-------------+----------+
@@ -142,24 +215,6 @@ mysql> select * from coffee_table where roast IS NOT NULL;
 |    5 | ifconfig   | tanzania    | blonde   |
 |    6 | traceroute | bali        | med-dark |
 +------+------------+-------------+----------+
-6 rows in set (0.00 sec)
-```
-
-- Using `WHERE` condition:
-
-```MySQL
-SELECT CustomerName, Country FROM Customers WHERE Country = 'Mexico';
-
-```
-
-```output
-+------------------------------------+---------+
-| CustomerName                       | Country |
-+------------------------------------+---------+
-| Ana Trujillo Emparedados y helados | Mexico  |
-| Antonio Moreno Taquería            | Mexico  |
-+------------------------------------+---------+
-
 ```
 
 ---
@@ -200,7 +255,7 @@ SELECT ContactName, Country FROM Customers WHERE Country NOT IN ('Germany', 'Fra
 ---------
 #### `BETWEEN`
 
-Selects values within a given range. The values can be numbers, text, or dates.
+SELECTs values within a given range. The values can be numbers, text, or dates.
 The `BETWEEN` operator is inclusive: begin and end values are included.
 
 ```MySQL
@@ -217,8 +272,11 @@ The `BETWEEN` operator is inclusive: begin and end values are included.
 +-----------+---------------+------------+------------+---------------------+-------+
 ```
 
+-----
+
 #### `DISTINCT`
-works like `unique()` from pandas and shows unique entries only
+
+works like `unique()` FROM pandas and shows unique entries only
 
 ```mysql
 SELECT DISTINCT Country FROM Customers;
@@ -235,25 +293,37 @@ SELECT DISTINCT Country FROM Customers;
 +---------+
 ```
 
-13. `SELECT COUNT(DISTINCT Country) FROM Customers;`: gives count of unique values
+#### `COUNT()`
+
+`SELECT COUNT(DISTINCT Country) FROM Customers;`: gives count of unique values
 
 ```MYSQL
-mysql> SELECT COUNT(DISTINCT Country) FROM Customers;
+SELECT COUNT(DISTINCT Country) FROM Customers;
+```
+
+```Output
 +-------------------------+
 | COUNT(DISTINCT Country) |
 +-------------------------+
 |                       4 |
 +-------------------------+
-
 ```
+-----
 
 
-#### Sorting Query Result:
+### Sorting Query Result:
 
 ![[Pasted image 20230515195314.png]]
-1. `select name, hire_date from emp where manager_id = 1 order by salary asc;`: Returning Query Results in a Specified Order , ==by default `order by` is set to `asc`==
+
+#### `ORDER BY ... ASC / DESC`
+
+ `SELECT name, hire_date FROM emp WHERE manager_id = 1 ORDER BY salary ASC;`: Returning Query Results in a Specified ORDER , ==BY default `ORDER BY` is set to `ASC`==
+ 
+```MySQL
+SELECT name, hire_date FROM emp WHERE manager_id = 1 ORDER BY salary ASC;
 ```
-mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
+
+```Output
 +--------------+------------+
 | name         | hire_date  |
 +--------------+------------+
@@ -262,12 +332,15 @@ mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
 | Jane Smith   | 2021-05-15 |
 | James Wilson | 2022-09-05 |
 +--------------+------------+
-4 rows in set (0.00 sec)
+```
 
+Sorting BY Multiple Fields: `ORDER BY`
+
+```MySQL
+SELECT name, hire_date FROM emp WHERE manager_id = 1 ORDER BY salary ASC;
 ```
-2. Sorting by Multiple Fields: `order by`
-```
-mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
+
+```Output
 +----------------+------+------------+
 | name           | age  | hire_date  |
 +----------------+------+------------+
@@ -280,12 +353,17 @@ mysql> select name, hire_date from emp where manager_id = 1 order by salary asc;
 | Michael Brown  |   32 | 2023-02-12 |
 | Olivia Davis   | NULL | NULL       |
 +----------------+------+------------+
-8 rows in set (0.01 sec)
+```
 
+#### `ORDER BY SUBSTR()`
+
+Sorting BY Sub strings : `ORDER BY substr`
+
+```MySQL
+SELECT name,role FROM emp ORDER BY substr(role, length(role)-1);
 ```
-3. Sorting by Sub strings : `order by substr`
-```
-mysql> select name,role from emp order by substr(role, length(role)-1);
+
+```Output
 +----------------+-----------+
 | name           | role      |
 +----------------+-----------+
@@ -298,16 +376,19 @@ mysql> select name,role from emp order by substr(role, length(role)-1);
 | Emily Johnson  | analyst   |
 | Michael Brown  | analyst   |
 +----------------+-----------+
-8 rows in set (0.00 sec)
+```
+
+ Dealing with Nulls When Sorting 🧠
+
+```MySQL
+mysql> SELECT name, age FROM (
+    -> SELECT name, age,
+    -> CASE WHEN age IS null THEN 0 END 1 END AS is_null
+    -> FROM emp ) x
+    -> ORDER BY is_null DESC,age;
+```
 
 ```
-4. Dealing with Nulls When Sorting
-```
-mysql> select name, age from (
-    -> select name, age,
-    -> case when age is null then 0 else 1 end as is_null
-    -> from emp ) x
-    -> order by is_null desc,age;
 +----------------+------+
 | name           | age  |
 +----------------+------+
@@ -320,13 +401,11 @@ mysql> select name, age from (
 | Mark Johnson   | NULL |
 | Olivia Davis   | NULL |
 +----------------+------+
-8 rows in set (0.00 sec)
-
 ```
 
-
 ---------------------
-#### links:
-[[MySQL Maths Queries]]
-[[MySQL Pattern Match]]
-[[]]
+>[!cite]
+>Author:  [Omkar Pawar](https://www.linkedin.com/in/omkarpawar1430/): https://www.linkedin.com/in/omkarpawar1430/
+>[[MySQL Maths Queries]]
+>[[MySQL Pattern Match]]
+
