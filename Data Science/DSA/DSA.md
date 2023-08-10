@@ -2,7 +2,7 @@
 Tags: #dsa 
 
 ------------------------------------------
-1. [[Data Structures]]: Familiarize yourself with fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs. Understand their properties, operations, and time complexities.
+1. [[Data Structures and Algorithms]]: Familiarize yourself with fundamental data structures such as arrays, linked lists, stacks, queues, trees, and graphs. Understand their properties, operations, and time complexities.
     
 2. [[Algorithms]]: Learn common algorithms like sorting (e.g., bubble sort, insertion sort, merge sort, quicksort), searching (e.g., linear search, binary search), and graph traversal algorithms (e.g., breadth-first search, depth-first search).
     

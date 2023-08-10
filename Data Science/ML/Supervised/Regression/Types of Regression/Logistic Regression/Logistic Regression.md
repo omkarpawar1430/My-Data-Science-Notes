@@ -6,18 +6,13 @@ To solve classification problems:
 	1. Binary Classification 
 	2. Multi class Classification
 
-Sigmoid function is used to keep the Regression lines output within certain range by bending the best fit line at certain points. It will help to deal with outliers
+			Sigmoid function is used to keep the Regression lines output within certain range by bending the best fit line at certain points. It will help to deal with outliers
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Exam_pass_logistic_curve.svg/600px-Exam_pass_logistic_curve.svg.png)
 
 * Logistic Regression is also a supervised learning algorithm, but it is used for **binary classification tasks**.
-* 
-
 -----------
-  
 Logistic regression is a widely used statistical and machine learning algorithm for [[binary classification]] problems. It is named after the logistic function, also known as the [[sigmoid function]], which is a key component of the algorithm. Logistic regression is a supervised learning algorithm that can predict the probability of an instance belonging to a certain class.
-
-
 
 Here are the key aspects and steps involved in logistic regression:
 
@@ -26,6 +21,7 @@ Here are the key aspects and steps involved in logistic regression:
     - Binary outcome: Logistic regression is suitable for problems where the target variable has two possible outcomes, typically represented as 0 and 1.
     - Linearity: The relationship between the features and the log-odds of the target variable is assumed to be linear.
     - Independence of errors: The observations are assumed to be independent of each other.
+    - 
 2. Model Representation:
     
     - The logistic regression model represents the relationship between the features (independent variables) and the probability of the target variable (dependent variable) being in a certain class.

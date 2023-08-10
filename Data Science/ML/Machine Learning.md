@@ -47,7 +47,7 @@ It's important to note that this pipeline is a general guide and that specific s
 
 ### Types of Machine Learning: 
 [[Supervised Learning]]
-[[Unsupervised Learning]]
+[[Unsupervised Machine Learning]]
 [[Reinforcement Learning]]
 
 

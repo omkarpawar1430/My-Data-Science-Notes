@@ -5,7 +5,7 @@ Tags: #ml
 ### What is simple linear regression?
 
 Simple linear regression is a statistical method that uses a straight line to model the relationship between one independent variable (x) and one dependent variable (y). The line is called the [[regression line]] ( Best fit line ) , and it is used to predict the value of y for a given value of x.
-
+         
 #### Example:
 For example, you could use simple linear regression to model the relationship between the number of hours you study and your exam score. You would collect data on the number of hours you study and your exam scores, and then use a statistical software to fit a regression line to the data. The regression line would allow you to predict your exam score for a given number of hours of studying.
 

@@ -41,6 +41,61 @@ Tags:
 [FREE Online Excel Training (12+ Hours) | Learn Excel (Basic/Advanced)](https://trumpexcel.com/learn-excel/)
 
 
+[10 FREE](https://www.linkedin.com/feed/update/urn:li:activity:7094520763017289728/) [#GenerativeAI](https://www.linkedin.com/feed/hashtag/?keywords=generativeai&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7094561064700289024) Courses from Google 😍  
+  
+No prerequisites or fees required.  
+  
+Here are10 FREE courses you don't want to miss:  
+  
+1. Introduction to Generative AI  
+  
+Click here👇  
+🔗[https://lnkd.in/d3PAjb3w](https://lnkd.in/d3PAjb3w)  
+  
+2. Introduction to Large Language Models  
+  
+Click here👇  
+[https://lnkd.in/duktFieB](https://lnkd.in/duktFieB)  
+  
+3. Introduction to Responsible AI  
+  
+Click here👇  
+[https://lnkd.in/dSnSf4Vv](https://lnkd.in/dSnSf4Vv)  
+  
+4. Generative AI Fundamentals  
+  
+Click here👇  
+[https://lnkd.in/dkzSbVvz](https://lnkd.in/dkzSbVvz)  
+  
+5. Introduction to Image Generation  
+  
+Click here👇  
+[https://lnkd.in/d-mqb-yf](https://lnkd.in/d-mqb-yf)  
+  
+6. Encoder-Decoder Architecture  
+  
+Click here👇  
+[https://lnkd.in/dbt-DG5H](https://lnkd.in/dbt-DG5H)  
+  
+7. Attention Mechanism  
+  
+Click here👇  
+[https://lnkd.in/dKY9HN8i](https://lnkd.in/dKY9HN8i)  
+  
+8. Transformer Models and BERT Model  
+  
+Click here👇  
+[https://lnkd.in/dQAdTaax](https://lnkd.in/dQAdTaax)  
+  
+9. Create Image Captioning Models  
+  
+Click here👇  
+[https://lnkd.in/dMDmExvv](https://lnkd.in/dMDmExvv)  
+  
+10. Introduction to Generative AI Studio  
+  
+Click here👇  
+[https://lnkd.in/dvTyr827](https://lnkd.in/dvTyr827)
 
 
 

@@ -32,7 +32,7 @@ _**Bold and Italic**_
 
 ![Obsidian](https://obsidian.md/images/banner.png)
 
-- [x] Nice Todo
+- [ ] Nice Todo
 
 - [ ] HIj 
 
@@ -119,7 +119,10 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2 
 Content in the first column | Content in the second column
 
-
+Resize Image 
+exclidraw embed
+`![[dependent_vs_independent_var.excalidraw | 20000]]`
+![[dependent_vs_independent_var.excalidraw | 20000]]
 ---------------------
 #### links:
 [[]]

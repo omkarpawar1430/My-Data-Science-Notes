@@ -2,6 +2,7 @@
 Tags: #python 
 
 ------------------------------------------
+
 **We will use `@dataclass` decorator on our class when we only want to use it for storing some class variables. Else we can use normal class with `__int__` method.**
 
 ----
@@ -111,7 +112,8 @@ Here are some of the benefits of using the @dataclass decorator:
 
 If you are creating a **class that is primarily used to store data**, and that does not need to define a lot of custom methods, then you should consider using the @dataclass decorator.
 
----------------------
-#### links:
-[[]]
-[[]]
+----
+>[!cite]
+> 🤝 Connect with Me: https://www.linkedin.com/in/omkarpawar1430/
+> 💗 Subscribe to our YouTube Channel: https://www.youtube.com/@optimisticomkar
+> 

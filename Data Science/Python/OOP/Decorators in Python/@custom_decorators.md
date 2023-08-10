@@ -6,6 +6,7 @@ Date Created:  2023-06-29, @ 17:30
 >[!info] Keywords
 >*
 
+![[decorators.excalidraw]]
 
 ### Function Decorator:
 

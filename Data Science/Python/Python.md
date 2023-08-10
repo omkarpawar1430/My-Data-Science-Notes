@@ -5,7 +5,7 @@ Tags: #python
 [[Flowchart]]
 [[Variables]]
 [[OOP]]
-[[Function]]
+[[Functions]]
 [[Libraries]]
 [[Error Handling]]
 [[Flask]]

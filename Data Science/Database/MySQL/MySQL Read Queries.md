@@ -272,6 +272,27 @@ The `BETWEEN` operator is inclusive: begin and end values are included.
 +-----------+---------------+------------+------------+---------------------+-------+
 ```
 
+- FOR TEXT:
+```MySQL
+mysql> SELECT ProductName FROM Products;
++------------------------------+
+| ProductName                  |
++------------------------------+
+| Chais                        |
+| Chang                        |
+| Aniseed Syrup                |
+| Chef Anton's Cajun Seasoning |
+| Chef Anton's Gumbo Mix       |
++------------------------------+
+```
+
+```MySQL
+
+```
+
+```Output
+
+```
 -----
 
 #### `DISTINCT`
@@ -403,9 +424,42 @@ mysql> SELECT name, age FROM (
 +----------------+------+
 ```
 
+### SORTING BY COLUMN NUMBER 1, 2, ..., N
+```mysql
+mysql> select * from dupes order by 1;
++------+----------+
+| id   | name     |
++------+----------+
+|    1 | napolean |
+|    2 | napolean |
+|    3 | napolean |
+|    4 | dynamite |
+|    5 | omkar    |
+|    6 | omkar    |
+|    8 | napolean |
++------+----------+
+```
+
+```mysql
+mysql> select * from dupes order by 2;
++------+----------+
+| id   | name     |
++------+----------+
+|    4 | dynamite |
+|    1 | napolean |
+|    2 | napolean |
+|    3 | napolean |
+|    8 | napolean |
+|    5 | omkar    |
+|    6 | omkar    |
++------+----------+
+```
 ---------------------
 >[!cite]
 >Author:  [Omkar Pawar](https://www.linkedin.com/in/omkarpawar1430/): https://www.linkedin.com/in/omkarpawar1430/
 >[[MySQL Maths Queries]]
 >[[MySQL Pattern Match]]
+>[[Working with Multiple Tables]]
+
+
 

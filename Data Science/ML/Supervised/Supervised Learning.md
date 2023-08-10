@@ -27,5 +27,6 @@ There are several types of supervised learning algorithms, including regression 
 [[Decision Tree]]
 [[Support Vector Machine]]
 [[Random Forest]]
-
+[[KNN]]
+[[Naive Baye's]]
 
