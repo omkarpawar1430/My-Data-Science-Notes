@@ -1,8 +1,8 @@
 
-Tags: #eda
+Tags: #eda #ml 
 
 ------------------------------------------
-Feature engineering is the process of creating new features (or variables) from the existing data that can improve the performance of a [[Machine Learning]] model. In other words, it is the process of transforming raw data into features that can be easily understood by a machine learning algorithm.
+Feature engineering is the process of creating new features (or variables) from the existing data that can improve the performance of a [[Machine Learning]] model. In other words, it is the **process of transforming raw data into features that can be easily understood by a machine learning algorithm**.
 
 The importance of feature engineering lies in the fact that machine learning algorithms generally work better when they are provided with relevant and informative features. By creating new features, we can provide the algorithm with more information that can help it to make better predictions or classifications.
 
@@ -17,8 +17,8 @@ Effective feature engineering requires a combination of domain knowledge, statis
 
 Feature engineering is the process of creating new
 
+see binning : [[approaching any ml problem.pdf#page=149&selection=21,0,22,1]]
 
 ---------------------
 #### links:
-[[]]
-[[]]
+

@@ -8,7 +8,7 @@ Brain Map - Graph view
 [[Exploratory Data Analysis]]
 [[Machine Learning]]
 [[Deep Learning]]
-[[Neural Language Programming]]
+[[Natural Language Processing]]
 [[Computer Vision]]
 [[Data Visualization]]
 [[Power BI]]

@@ -4,8 +4,8 @@ Tags: #ml #unsupervised
 
 ---
 >[!info] Keywords
->* 
->* 
+>* dendrogram
+>* linkage method
 
 Hierarchical clustering is an unsupervised machine learning technique used to group similar data points into clusters in a hierarchical way. It builds a tree-like structure of clusters, known as a dendrogram, which shows how data points are grouped at different levels of similarity. Here's a step-by-step explanation of hierarchical clustering in simple terms:
 

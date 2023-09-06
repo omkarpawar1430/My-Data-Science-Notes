@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"6820f0863f995f99","x":-153,"y":-300,"width":250,"height":60,"color":"6","type":"text","text":"Data Ingestion "},
+		{"id":"49a1b03b3548fc45","x":-153,"y":-200,"width":250,"height":60,"color":"6","type":"text","text":"Data Analysis (EDA)"},
+		{"id":"6982737da244fed9","x":-153,"y":-100,"width":250,"height":60,"color":"6","type":"text","text":"Preprocessing (FE)"},
+		{"id":"82f8407eaf589160","x":-153,"y":0,"width":250,"height":60,"color":"6","type":"text","text":"Model Building"},
+		{"id":"0a28fdd1a4a4cdb1","x":-153,"y":100,"width":250,"height":60,"color":"6","type":"text","text":"Model Evaluation "},
+		{"id":"260deb6c7010277d","x":582,"y":-100,"width":159,"height":60,"type":"text","text":"Bag of Words"},
+		{"id":"5bbc210a37c75a94","x":582,"y":-200,"width":220,"height":60,"type":"text","text":"One Hot Encoding"},
+		{"id":"a4dab7641f8dfb6f","x":588,"y":0,"width":104,"height":50,"type":"text","text":"TF-IDF"},
+		{"id":"43b3478da8d61f27","x":220,"y":-100,"width":216,"height":60,"color":"2","type":"text","text":"Encoding Techniques"}
+	],
+	"edges":[
+		{"id":"ccf6335ad6773ce8","fromNode":"6820f0863f995f99","fromSide":"bottom","toNode":"49a1b03b3548fc45","toSide":"top"},
+		{"id":"030d7ff7e208b091","fromNode":"49a1b03b3548fc45","fromSide":"bottom","toNode":"6982737da244fed9","toSide":"top"},
+		{"id":"a30f6ea151f57fe4","fromNode":"6982737da244fed9","fromSide":"bottom","toNode":"82f8407eaf589160","toSide":"top"},
+		{"id":"cefb3035a85606ae","fromNode":"82f8407eaf589160","fromSide":"bottom","toNode":"0a28fdd1a4a4cdb1","toSide":"top"},
+		{"id":"16aa47dc03707c09","fromNode":"6982737da244fed9","fromSide":"right","toNode":"43b3478da8d61f27","toSide":"left"},
+		{"id":"eb7186d89ec46034","fromNode":"43b3478da8d61f27","fromSide":"right","toNode":"5bbc210a37c75a94","toSide":"left"},
+		{"id":"687876c846f9bf5d","fromNode":"43b3478da8d61f27","fromSide":"right","toNode":"260deb6c7010277d","toSide":"left"},
+		{"id":"85d2af2d0f9dd75c","fromNode":"43b3478da8d61f27","fromSide":"right","toNode":"a4dab7641f8dfb6f","toSide":"left"}
+	]
+}

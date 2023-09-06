@@ -8,6 +8,9 @@
  - [ ] What is the [[Multicollinearity]]? How it looks like how this can be tackled ? 
  - [ ] What is [[Bias-Variance Tradeoff]]? 
  - [x] when to use euclidean distance and when to use manhatan dist?
+ - [ ] what is the difference between percentile and quantile 
+ - [ ] [[data validation vs data transformation]]?
+ - [ ] what are the different types of correlation?
  - [ ] 
 
 

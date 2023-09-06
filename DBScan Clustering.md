@@ -7,7 +7,7 @@ Tags: #ml #unsupervised
 >* Core, Border and Noise points
 
 
-**DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**: is an unsupervised machine learning algorithm used to discover clusters in data based on density. Unlike K-means or hierarchical clustering, DBSCAN **doesn't require specifying the number of clusters beforehand**. Instead, it identifies densely populated regions in the data space and groups data points based on their proximity and density. Here's a detailed step-by-step explanation of how DBSCAN works:
+**DBSCAN (Density-Based [[Spatial]] Clustering of Applications with Noise)**: is an unsupervised machine learning algorithm used to discover clusters in data based on density. Unlike K-means or hierarchical clustering, DBSCAN **doesn't require specifying the number of clusters beforehand**. Instead, it identifies densely populated regions in the data space and groups data points based on their proximity and density. Here's a detailed step-by-step explanation of how DBSCAN works:
 
 **Step 1: Define Parameters**
 
@@ -42,7 +42,7 @@ Tags: #ml #unsupervised
 
 - Any unvisited data point that is not within �ε distance of any core point is considered a noise point.
 
-![[DBScan Clustering.excalidraw | 800]]
+![[DBScan Clustering.excalidraw | 500]]
 
 ----
 **Key Concepts:**
@@ -70,7 +70,7 @@ In summary, DBSCAN is a density-based clustering algorithm that identifies clust
 ### Interview Questions:
 1. **Explain the concept of DBSCAN in unsupervised machine learning. How does it differ from other clustering methods like K-means?** #iq 
     
-    - DBSCAN is a density-based clustering algorithm that groups data points based on their density within a specified distance $\varepsilon$ and minimum points (minPtsminPts). Unlike K-means, DBSCAN doesn't require predefining the number of clusters and can find clusters of arbitrary shapes.
+    - DBSCAN is a **density-based** clustering algorithm that groups data points based on their density within a specified distance $\varepsilon$ and minimum points (minPtsminPts). Unlike K-means, DBSCAN doesn't require predefining the number of clusters and can find clusters of arbitrary shapes.
 2. **What are the key parameters in DBSCAN, and how do they influence the clustering results?**
     
     - The key parameters are �ε (epsilon) and minPtsminPts. �ε defines the radius within which points are considered neighbors, and minPtsminPts is the minimum number of points required to form a dense region. These parameters impact cluster density and noise handling.
