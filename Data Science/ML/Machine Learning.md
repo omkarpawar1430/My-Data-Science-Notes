@@ -8,8 +8,9 @@ Tags: #ML
 1.  [[Data Collection and Preprocessing]]:
     
     -   Collect the data from various sources such as databases or files, and load it into a data structure that can be manipulated by code.
-    -   Preprocess the data as needed, such as converting categorical variables into numerical ones, scaling the data, or handling missing values.
-2.  [[Exploratory Data Analysis]] (EDA):
+    -   Preprocess the data as needed, such as converting categorical variables into numerical ones, Feature Scaling, or handling missing values.
+    
+1.  [[Exploratory Data Analysis]] (EDA):
     
     -   Perform descriptive statistics to summarize the data and understand its distribution.
     -   Visualize the data to identify patterns, trends, and outliers.
@@ -18,16 +19,24 @@ Tags: #ML
     
     -   Split the data into training, validation, and testing sets.
     -   The training set is used to train the model, the validation set is used to evaluate the model during training and tune hyperparameters, and the testing set is used to evaluate the final model performance.
-4.  [[Feature Selection]]:
+
+:
+
+[[Feature Engineering]]:
+
+
+1.  [[Feature Selection]]:
     
     -   Identify the most important features that can contribute the most to the model's performance.
     -   Select the subset of features that are relevant to the problem and remove the ones that are not.
-5.  [[Model Selection]]:
+    
+1.  [[Model Selection]]:
     
     -   Choose an appropriate machine learning algorithm based on the problem statement and the data characteristics.
     -   Determine whether the problem is a supervised or unsupervised learning problem.
     -   Consider factors such as accuracy, interpretability, scalability, and robustness when choosing a model.
-6.  [[Model Training]]:
+    
+1.  [[Model Training]]:
     
     -   Train the model on the training set using appropriate hyperparameters and regularization techniques.
     -   Evaluate the model performance on the validation set and fine-tune the model as needed.
@@ -45,12 +54,14 @@ Tags: #ML
 
 It's important to note that this pipeline is a general guide and that specific steps may vary depending on the problem being solved, the data being used, and the goals of the project. Additionally, this pipeline may be iterative, with multiple rounds of EDA and model building as the problem is refined and new data becomes available.
 
+
 ### Types of Machine Learning: 
 [[Supervised Learning]]
 [[Unsupervised Machine Learning]]
 [[Reinforcement Learning]]
 
-
+We need to tackle time series analysis in different way than regular data:
+[[Time Series Analysis]]
 
 ---------------------
 #### links:

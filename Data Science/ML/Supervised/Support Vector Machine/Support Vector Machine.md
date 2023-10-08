@@ -60,7 +60,8 @@ SVM is a versatile algorithm that is widely used in various applications, includ
 
 
 
-
+### Interview Questions:
+1. What is the intiution behind the SVM ? explain in layman terms...
 
 
 

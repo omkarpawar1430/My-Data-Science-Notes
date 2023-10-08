@@ -21,7 +21,7 @@ Feature selection is the process of selecting a subset of the available features
 
 Feature Engineering , on the other hand, is the process of creating new features or transforming existing features to improve the performance of machine learning models. This involves using domain knowledge or creativity to extract information from the data that may not be captured by the original features. Feature engineering techniques can include scaling or normalizing features, creating new features through mathematical operations (e.g., ratios, logarithms), combining features through feature crosses or interactions, and encoding categorical variables using techniques like one-hot encoding or ordinal encoding.
 
-Overall, the main difference between feature selection and feature engineering is that feature selection is focused on reducing the number of features used in a model, while feature engineering is focused on improving the quality of the features used in a model. Both techniques can be used in combination to improve the performance of [[Machine Learning]] models.
+Overall, the main difference between feature selection and feature engineering is that feature selection is focused on reducing the number of features used in a model, while feature engineering is focused on improving the quality of the features used in a model. Both techniques can be used in combination to improve the performance of Machine Learning models.
 
 ---------------------
 #### links:

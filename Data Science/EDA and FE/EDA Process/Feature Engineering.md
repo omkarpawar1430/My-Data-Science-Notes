@@ -2,7 +2,11 @@
 Tags: #eda #ml 
 
 ------------------------------------------
-Feature engineering is the process of creating new features (or variables) from the existing data that can improve the performance of a [[Machine Learning]] model. In other words, it is the **process of transforming raw data into features that can be easily understood by a machine learning algorithm**.
+Feature engineering is the process of creating new features (or variables) from the existing data that can improve the performance of a Machine Learning model. In other words, it is the **process of transforming raw data into features that can be easily understood by a machine learning algorithm**.
+
+- Feature engineering is the process of creating new features or modifying existing ones to enhance the predictive power of your machine learning model. It involves selecting, transforming, or creating features based on domain knowledge or insights gained from the data.
+- Feature engineering goes beyond scaling and involves tasks like one-hot encoding categorical variables, creating interaction terms, handling missing values, and engineering new features based on the context of the problem. Feature engineering aims to capture meaningful patterns and relationships in the data to improve the model's performance.
+- Effective feature engineering can have a substantial impact on the predictive accuracy of a machine learning model.
 
 The importance of feature engineering lies in the fact that machine learning algorithms generally work better when they are provided with relevant and informative features. By creating new features, we can provide the algorithm with more information that can help it to make better predictions or classifications.
 

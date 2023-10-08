@@ -1,7 +1,7 @@
-------------------------- 
-Tags: 
-⏰ Date Created:  {{date}}, @ {{time}}
-
+---
+tags: 
+date:
+---
 ---
 >[!info] Keywords
 >* 

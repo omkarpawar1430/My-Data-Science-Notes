@@ -15,13 +15,6 @@ Tags: #stats
 
 Consider that the probability for a PDF in statistics equals an area. For a non-zero area, you must have both a non-zero height and a non-zero width because Height X Width = Area. In this context, the height is the curve’s height on the graph, while the width relates to the range of values. When you have a single value, you have zero width, which produces zero areas. Hence, a zero chance!
 
-
-
-
-
-
-
-
 ---------------------
 #### links:
 [[]]

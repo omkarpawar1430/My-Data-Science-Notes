@@ -6,7 +6,6 @@ Date Created:  2023-06-17, @ 12:11
 >[!info] Keywords
 >*
 
-
 Ensemble techniques in Machine Learning involve **combining multiple models to create a more accurate and robust predictor**. The idea is that by aggregating the predictions of multiple models, the ensemble can often outperform any individual model. Ensemble techniques are used when we want to improve prediction accuracy, reduce 
 [[Overfitting]] , and handle complex or uncertain data.
 

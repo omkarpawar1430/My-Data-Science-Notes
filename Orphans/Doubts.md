@@ -11,6 +11,7 @@
  - [ ] what is the difference between percentile and quantile 
  - [ ] [[data validation vs data transformation]]?
  - [ ] what are the different types of correlation?
+ - [ ] [[Anomaly Detection]] ?
  - [ ] 
 
 
