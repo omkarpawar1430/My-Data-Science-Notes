@@ -13,6 +13,3 @@ Brain Map - Graph view
 [[Data Visualization]]
 [[Power BI]]
 [[Tableu]]
-
-
-
