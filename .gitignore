@@ -1,7 +1,4 @@
 /.obsidian
-**/Books/*
-/Profile Building/*
-/Study Material/*
-
-My Data Science Notes/Study Material/** 
-
+**/Study Material/*
+Study Material/
+/Profile Building/
