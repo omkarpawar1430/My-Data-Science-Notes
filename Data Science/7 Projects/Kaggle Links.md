@@ -19,3 +19,5 @@ Project Dataset along with problem statement. 
 [https://www.kaggle.com/competitions/playground-series-s3e18/data](https://www.kaggle.com/competitions/playground-series-s3e18/data "https://www.kaggle.com/competitions/playground-series-s3e18/data")   
   
 [https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries](https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries "https://www.kaggle.com/competitions/commonlit-evaluate-student-summaries")
+
+Chose projects Wisely
