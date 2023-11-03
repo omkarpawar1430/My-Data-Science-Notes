@@ -12,6 +12,7 @@
  - [ ] [[data validation vs data transformation]]?
  - [ ] what are the different types of correlation?
  - [ ] [[Anomaly Detection]] ?
+ - [ ] How to find correlation for categorical column...? 
  - [ ] 
 
 

@@ -1,7 +1,7 @@
 ---
 tags: 
-date:
----
+date: 
+aliases:
 ---
 >[!info] Keywords
 >* 
@@ -15,17 +15,14 @@ date:
 
 
 
-
-### Interview Questions:
-
-
-
 >[!summary] 
 >1. 
 >2. 
 
-----
->[!cite]
-> 🤝 Connect with Me: https://www.linkedin.com/in/omkarpawar1430/
-> 💗 Subscribe to our YouTube Channel: https://www.youtube.com/@datadecides
+------
+### Interview Questions:
 
+----
+### Links:
+>[!cite]
+> 🤝 Connect with Me: https://linktr.ee/omkarpawar1430

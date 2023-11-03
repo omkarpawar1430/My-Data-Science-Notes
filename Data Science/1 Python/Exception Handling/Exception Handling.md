@@ -133,4 +133,3 @@ The `raise` keyword is a powerful tool that can be used to handle exceptions in 
 
 ---------------------
 #### links:
-[exception.py](obsidian://open?vault=My%20Data%20Science%20Notes&file=Data%20Science%2FProject%20Pipeline%2Fexception.py)

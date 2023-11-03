@@ -6,6 +6,9 @@ Tags: #python
 
 ### Some Useful Libraries:
 [[Pandas]]
+[[Numpy]]
+[[Matplotlib]]
+[[Seaborn]]
 [[PyInputPlus]]
 [[PyPDF2]]
 [[RegEx]]
