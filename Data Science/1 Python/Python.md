@@ -49,7 +49,7 @@ Key aspects of PEP 8 include guidelines on indentation, variable naming, line le
 9. [[Iterator Generator]]
 10. [[File Handling]]
 11. [[Exception Handling]]
-12. [[Debugging]]
+12. [[Logging and Debugging]]
 13. [[Libraries]]
 
 ### Extra Things to Know

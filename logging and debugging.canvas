@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"ddeac5640469b2c4","type":"text","text":"import logging","x":-60,"y":-340,"width":185,"height":60,"color":"6"},
+		{"id":"3907cf55dd84b624","type":"text","text":"logger = logging.getLogger(\"name\")","x":-136,"y":-80,"width":337,"height":50,"color":"2"},
+		{"id":"a11f55599fb698ff","type":"text","text":"setLevel(level)","x":-85,"y":0,"width":236,"height":50,"color":"2"},
+		{"id":"8bd1f558e6c30ef9","type":"text","text":"#### root logger \nlogging.basicConfig(filename,format, filemode, level)","x":-480,"y":-200,"width":440,"height":100,"color":"3"},
+		{"id":"20151f4647d7fd4f","type":"text","text":"setFormatter(formatter)","x":-92,"y":94,"width":250,"height":60,"color":"5"},
+		{"id":"5ab623374b6e11d4","type":"text","text":"#### 3. Warning\nlogger.warning(\"msg\")","x":-104,"y":625,"width":275,"height":80,"color":"3"},
+		{"id":"9df7aef26a31094c","type":"text","text":"#### 2. INFO\nlogger.infro(\"msg\")","x":-389,"y":570,"width":268,"height":90,"color":"4"},
+		{"id":"854ea30e93470625","type":"text","text":"#### 4. ERROR\nlogger.error(\"msg\")","x":200,"y":570,"width":220,"height":90,"color":"2"},
+		{"id":"77f882a9aa1cbea5","type":"text","text":"#### 5. CRITICAL\nlogger.critical(\"msg\")","x":440,"y":533,"width":240,"height":75,"color":"1"},
+		{"id":"2aca4e8d19cf8604","type":"text","text":"#### 1. DEBUG\nlogger.debug(\"msg\")","x":-660,"y":518,"width":251,"height":90,"color":"5"},
+		{"id":"ea0a02a2c288c68f","type":"text","text":"file_handler = logging.FileHandler('name.extension')\n\n","x":60,"y":-190,"width":360,"height":80,"color":"4"},
+		{"id":"4b77883d733e3323","type":"text","text":"console_handler = logging.StreamHandler()","x":380,"y":-95,"width":260,"height":80,"color":"4"},
+		{"id":"603c7c5f6cf9c188","type":"text","text":"logger.addHandler(name_of_handler)","x":-138,"y":240,"width":339,"height":50,"color":"4"},
+		{"id":"464823dd98045a5f","type":"text","text":"formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')","x":-580,"y":85,"width":409,"height":78,"color":"5"}
+	],
+	"edges":[
+		{"id":"16b41d3582100cfd","fromNode":"ddeac5640469b2c4","fromSide":"bottom","toNode":"8bd1f558e6c30ef9","toSide":"top"},
+		{"id":"17d873d7fd16c5b9","fromNode":"8bd1f558e6c30ef9","fromSide":"bottom","toNode":"3907cf55dd84b624","toSide":"left"},
+		{"id":"57058015315381ff","fromNode":"ddeac5640469b2c4","fromSide":"bottom","toNode":"3907cf55dd84b624","toSide":"top"},
+		{"id":"8763ec5f7359d5cf","fromNode":"3907cf55dd84b624","fromSide":"bottom","toNode":"a11f55599fb698ff","toSide":"top"},
+		{"id":"786640c0d10db3d0","fromNode":"603c7c5f6cf9c188","fromSide":"bottom","toNode":"2aca4e8d19cf8604","toSide":"top"},
+		{"id":"625da0688983ab34","fromNode":"603c7c5f6cf9c188","fromSide":"bottom","toNode":"9df7aef26a31094c","toSide":"top"},
+		{"id":"6dc875647edfcfde","fromNode":"603c7c5f6cf9c188","fromSide":"bottom","toNode":"5ab623374b6e11d4","toSide":"top"},
+		{"id":"2810c35f3256e370","fromNode":"603c7c5f6cf9c188","fromSide":"bottom","toNode":"854ea30e93470625","toSide":"top"},
+		{"id":"de9ebbc8f97d8e4a","fromNode":"603c7c5f6cf9c188","fromSide":"bottom","toNode":"77f882a9aa1cbea5","toSide":"top"},
+		{"id":"5c83f7cff32651dd","fromNode":"a11f55599fb698ff","fromSide":"bottom","toNode":"20151f4647d7fd4f","toSide":"top"},
+		{"id":"631757aa835d8264","fromNode":"ddeac5640469b2c4","fromSide":"bottom","toNode":"ea0a02a2c288c68f","toSide":"top"},
+		{"id":"9db7e6505a2c19c3","fromNode":"ea0a02a2c288c68f","fromSide":"bottom","toNode":"a11f55599fb698ff","toSide":"right"},
+		{"id":"0bb7a40b2c9ccf99","fromNode":"ddeac5640469b2c4","fromSide":"right","toNode":"4b77883d733e3323","toSide":"top"},
+		{"id":"08de090eacf9d798","fromNode":"20151f4647d7fd4f","fromSide":"bottom","toNode":"603c7c5f6cf9c188","toSide":"top"},
+		{"id":"7e63393c9fa7d4f1","fromNode":"4b77883d733e3323","fromSide":"bottom","toNode":"a11f55599fb698ff","toSide":"right"},
+		{"id":"9cead0a1c4fa2432","fromNode":"464823dd98045a5f","fromSide":"right","toNode":"20151f4647d7fd4f","toSide":"left"}
+	]
+}

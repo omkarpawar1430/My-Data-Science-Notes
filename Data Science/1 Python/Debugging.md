@@ -1,4 +1,0 @@
-#python 
-
-![[Pasted image 20230506091346.png]]
-
